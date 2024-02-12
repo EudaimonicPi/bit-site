@@ -1,0 +1,52 @@
+/* should i do the grid display?  */
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.top-container {
+  background-color: #9ccddc;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  width: 210px;
+}
+
+.box-style {
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: lavender;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.trash-button {
+  background-color: gray;
+}
+
+.link-style {
+  text-decoration: none;
+}
+
+.box-style:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.grid-name-style {
+  color: black;
+  text-align: center;
+}
+
+.grid-name-style a {
+  text-decoration: none;
+}

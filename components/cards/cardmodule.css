@@ -1,0 +1,84 @@
+/* annotate what each does, thanks GPT! */
+/* how to keep same size */
+.cardContainer {
+  /* background-color: orange; */
+  border-radius: 12px;
+  overflow: scroll;
+
+  /*  i need something like this, which is more dynamic */
+  max-width: 300px;
+  min-width: 300px;
+
+  max-height: 400px;
+  min-height: 400px;
+
+  /* width: 90%; */
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  flex: 2;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.modal-container {
+  /* background-color: blue; */
+
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+/* enlarges card on hover */
+/* .cardContainer:hover {
+  transform: scale(1.05);
+} */
+
+/* where is this being put? */
+.cardPhoto {
+  /* see how i can rewrite style with flexboxes */
+  width: 100%;
+  height: 200px; /* Adjust the height based on your design */
+  object-fit: scale-down;
+}
+
+.cardContent {
+  background-color: #dddddd;
+  /* padding: 0px; */
+  height: 200px;
+
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cardHeading {
+  flex: 1;
+  /* background-color: pink; */
+  font-size: 1rem;
+  margin: 3%;
+}
+
+.cardDescription {
+  flex: 4;
+  /* background-color: green; */
+  font-size: 0.8rem;
+  color: #555;
+  margin-bottom: 16px;
+  margin: 3%;
+}
+
+.cardButton {
+  background-color: #8c1515;
+  color: #fff;
+  border: none;
+  padding: 5px 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cardButton:hover {
+  background-color: #4c0808;
+}
