@@ -1,4 +1,4 @@
-import ResumeImage from '@/data/cellImages/resume.jpeg'
+import ResumeImage from '@/data/cellImages/author.jpeg'
 
 const CE = { "cards": [
     { "title": "My Resume",

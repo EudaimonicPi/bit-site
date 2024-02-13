@@ -1,14 +1,14 @@
 //more descriptive might be headingNW
-const heading1 = "Published Works & Writings" // Publications?
+const heading1 = "About the Author" // Publications?
 
-const heading2 = "Games and Designs"
-const heading3 = "Stanford Experiences"
-const heading4 = "Teaching, Speaking, & Workshops"
-const heading5 = "Resume"
-const heading6 = "Fractal Gridding"
-const heading7 = "Miscellaneous" // music?
-const heading8 = "Contact Me"
-const middleHeading = "About Me"
+const heading2 = "Oxford & Origin Story"
+const heading3 = "VPUE & Grant Proposals"
+const heading4 = "Summer Work"
+const heading5 = "The Finished Draft"
+const heading6 = "Presentations"
+const heading7 = "Features & Recognitions" // music?
+const heading8 = "The Future"
+const middleHeading = "Bit by Bit Project Website"
 
 const rawHeadings =  [heading1, heading2, heading3, heading4, 
     middleHeading, heading5, heading6, heading7, heading8]
