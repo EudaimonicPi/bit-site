@@ -24,7 +24,6 @@ function renderCell(cellId) {
                     }}/>
         </div>
         <p>{cellInfo.description}</p>
-        <p>{cellInfo.description}</p>
     </div>)
 
 }

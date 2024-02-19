@@ -1,5 +1,5 @@
 DIFFERENT FOR THIS PROJECT!!!
 git add .
-git commit -m "more card changes" 
+git commit -m "main image edits" 
 git branch -M main  
 git push -u origin main      
