@@ -3,6 +3,9 @@
 
 const personalWebsite = "cogsplat.vercel.app/L1"
 const bitlink = 'www.google.com/search?q=bit+by+bit+ecy+king&rlz=1C5CHFA_enUS890US890&oq=bit+by+bit+ecy+king&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyBggEEEUYOzIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCjEyMjkwajBqMTWoAgCwAgA&sourceid=chrome&ie=UTF-8'
+const symsysLink = "symsys.stanford.edu/people/ecy-femi-king"
+
+//mention what I did at Stanford
 const NW = { "cards": [
 
     
@@ -12,6 +15,11 @@ const NW = { "cards": [
             { "name": "My Personal Website", 
                 "link": personalWebsite
             },
+            {
+                "name": "SymSys Profile", 
+                "link": symsysLink
+
+            }
   
         ],
         // "image": BbBCoverImage,

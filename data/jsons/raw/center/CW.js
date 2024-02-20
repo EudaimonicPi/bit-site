@@ -53,7 +53,7 @@ const CW = { "cards": [
     },
 
     { "title": "VPUE Ambassador",
-        "description": "VPUE Research really liked my project! I was asked to be a Student Ambassador and was paid to speak about it to others. I was also a student spotlight on their website and in a video on Stanford Research's Instagram.",
+        "description": "VPUE Research liked my project! They asked me to be a Student Ambassador. I was paid to speak to others about my project and featured as a student spotlight. I also created a video for Stanford's Research Instagram.",
         "buttons": [
             { "name": "The Spotlight", 
                 "link": vpueMySpotlight
@@ -111,14 +111,14 @@ const CW = { "cards": [
             ],
             // "image": ConferenceImage,
         },
-                       { "title": "Machina Publication",
-            "description": "I continued to share the prototyped copies with people— classmates, CS professors, folks at the d.school, fellow members of the SAA Board of Directors. I even made a Bit by Bit themed game for a class and got an A+.",
+             { "title": "Machina Publication",
+            "description": "In 2023, I submitted Bit by Bit for the inaugural edition Machina, the SymSys magazineion. Bit by Bit was accepted and featured in the magazine. Later on, I also presented the project at a SymSys poster session.",
             "buttons": [
                 //TO DO: see if I can find the paper picture of my article in the daily :) 
-                 { "name": "The Journal [FIX LINK", 
-                    "link": supPropLink
+                 { "name": "Machina", 
+                    "link": "www.symsyssociety.org/journal"
                 },
-                                 { "name": "What is SymSYs? [link]", 
+                                 { "name": "SymSys What is [FIX]", 
                     "link": supPropLink
                 },
             ],
