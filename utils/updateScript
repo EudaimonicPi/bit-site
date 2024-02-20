@@ -1,5 +1,4 @@
-DIFFERENT FOR THIS PROJECT!!!
 git add .
-git commit -m "NC draft done" 
+git commit -m "CW draft" 
 git branch -M main  
 git push -u origin main      

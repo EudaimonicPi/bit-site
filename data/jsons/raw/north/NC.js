@@ -5,6 +5,10 @@ import q23Image from '@/data/rawImages/NC/23qtitle.png'
 // import PostyImage from '@/data/rawImages/NC/posty.jpeg'
 // import PianoImage from '@/data/rawImages/NC/piano.jpeg'
 // import CloudImage from '@/data/rawImages/NC/cloud.png'
+//NOTE: MOVE TRAVEL IMAGE TO NC FOLDRE
+import TravelImage from '@/data/rawImages/NE/radcam.jpeg'
+
+import ThanksImage from '@/data/rawImages/NC/grant_thanks.png' 
 
 const theFeature = "undergradresearch.stanford.edu/people/ecy-king"
 const majorGrantInfoLink = "undergradresearch.stanford.edu/fund-your-project/explore-student-grants/major"
@@ -24,7 +28,7 @@ const NC = { "cards": [
             }
         ],
         // maybe I can uplaod a playable version
-        // "image": q23Image,
+        "image": TravelImage,
     },
 
         { "title": "Initial Ideas",
@@ -38,7 +42,7 @@ const NC = { "cards": [
     },
 
         { "title": "Epiphany",
-        "description": "I then pivoted. Brainstorming something combining teaching Computer Science (CS), Fractal Gridding, doodling, and learning psychology, I came up with the idea to create a comic for Stanford's Intro CS classes.",
+        "description": "I then pivoted. Brainstorming ideas combining teaching Computer Science (CS), Fractal Gridding, doodling, and learning psychology, I decided to create a comic for Stanford's Intro CS classes, CS106A and CS106B.",
         "buttons": [
             { "name": "The Initial Proposal", 
                 "link": srSynthLink
@@ -48,6 +52,7 @@ const NC = { "cards": [
     },
 
 
+    // button: potentially links to bit by bit poster prez i did for my oxford tutorial 
     { "title": "A 9 Day Sprint",
         "description": 'Nine days before the grant was due, I restarted it. I had to create a new literature review, 10-week timeline, and budget. I wrote to my Oxford tutor: "It\'s a wee bit against the odds, but I\'m just going to do my best!"',
         "buttons": [
@@ -104,7 +109,8 @@ const NC = { "cards": [
                 "link": srSynthLink
             }
         ],
-        // "image": TreeImage,
+        // put link to larger thanks
+        "image": ThanksImage,
 
         }   ,
 
