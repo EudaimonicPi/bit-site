@@ -1,5 +1,5 @@
 DIFFERENT FOR THIS PROJECT!!!
 git add .
-git commit -m "added button for CS110 comic" 
+git commit -m "NC draft done" 
 git branch -M main  
 git push -u origin main      

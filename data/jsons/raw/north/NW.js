@@ -7,7 +7,7 @@ const NW = { "cards": [
 
     
     { "title": "Who Am I?",
-        "description": "My name is Ecy (AC) King, and I'm a Stanford University coterm, meaning I finished my BS in Symbolic Systems (Human-Centered AI) and am currently doing my MS in Computer Science (Human-Computer Interaction).",
+        "description": "My name is Ecy (AC) King, and I'm a Stanford University coterm, meaning I finished my BS in Symbolic Systems '23 (Human-Centered AI) and am currently doing my MS in Computer Science '24 (Human-Computer Interaction).",
         "buttons": [
             { "name": "My Personal Website", 
                 "link": personalWebsite
@@ -16,9 +16,10 @@ const NW = { "cards": [
         ],
         // "image": BbBCoverImage,
     },
+    // what problem did I solve? 
 
     { "title": "Bit by Bit Origins",
-        "description": "Out of a love for teaching Computer Science (CS), learning psychology, doodling, and Fractal Grididng, I created Bit by Bit, a Graphic Introduction to CS based around Stanford's Introductory CS classes CS106A and CS106B. ",
+        "description": "Out of a love for teaching Computer Science (CS), learning psychology, doodling, and Fractal Grididng, I created Bit by Bit, a Graphic Introduction to CS based around Stanford's Introductory CS classes CS106A and CS106B. It will be published by the Stanford University Press on June 4th, 2024 ",
         "buttons": [
             { "name": "I love Fractal Gridding", 
                 "link": "www.amazon.com/Fractal-Gridding-Notepad-Visually-Lifespace/dp/0983825157/ref=sr_1_1?crid=3JXR16YU0NP9P&keywords=fractal+gridding+notepad&qid=1706172993&s=books&sprefix=fractal+gridding+notepa%2Cstripbooks%2C129&sr=1-1"
@@ -29,7 +30,7 @@ const NW = { "cards": [
     },
 
         { "title": "More Background",
-        "description": "My background is Sierra-Leonean American; I was born in Scotland, raised in Fresno/Clovis in CA's Central Valley, and my entire family hails from Sierra Leone, West Africa. Currently I'm in Palo Alto, CA for school at Stanford :) ",
+        "description": "My background is Sierra Leonean American; I was born in Scotland, raised in Fresno/Clovis in CA's Central Valley, and my entire family hails from Sierra Leone, West Africa. Currently I'm in Palo Alto, CA for school at Stanford :) ",
         "buttons": [
             //TO DO: see if I can find the paper picture of my article in the daily :) 
             { "name": "Read More Here", 
