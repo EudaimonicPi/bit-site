@@ -1,10 +1,10 @@
 //more descriptive might be headingNW
 const heading1 = "About the Author" // Publications?
 
-const heading2 = "Oxford & Origin Story"
-const heading3 = "VPUE & Grant Proposals"
-const heading4 = "Summer Work"
-const heading5 = "The Finished Draft"
+const heading2 = "VPUE Grant & Oxford Origin"
+const heading3 = "Summer Work at Stanford"
+const heading4 = "The Finished Draft"
+const heading5 = "The 500 Copies"
 const heading6 = "Presentations"
 const heading7 = "Features & Recognitions" // music?
 const heading8 = "The Future"

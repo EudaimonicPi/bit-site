@@ -1,10 +1,10 @@
 import Image1 from '@/data/cellImages/author.jpeg'
-import Image2 from '@/data/cellImages/origin.jpeg'
-import Image3 from '@/data/cellImages/grant.jpeg'
+import Image2 from '@/data/cellImages/ox.jpeg'
+import Image3 from '@/data/cellImages/stanford.jpeg'
 
-import Image4 from '@/data/cellImages/summer_work.jpeg'
+import Image4 from '@/data/cellImages/finished_draft.jpeg'
 import CenterImage from '@/data/cellImages/bit_center.jpeg'
-import Image5 from '@/data/cellImages/draft.jpeg'
+import Image5 from '@/data/cellImages/copies.jpeg'
 import Image6 from '@/data/cellImages/presentations.jpeg'
 
 import Image7 from '@/data/cellImages/features.jpeg'

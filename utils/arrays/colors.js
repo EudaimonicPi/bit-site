@@ -1,14 +1,17 @@
 /* These are the planet values */
 // HAS TO BE HEXADECIMAL BC OF OTHER FUNCTINO LOL
+const light_red = '#d68383'
+const cyan = '#9bf6ff'
+const pasty = '#ffe4bd'
 const colorCC = '#dddddd' //before: gray
 const colorNW = '#bdb2ff' //violet
 const colorNC = '#a0c4ff' //blue
-const colorNE = 'gold' //yellow
-const colorCW = '#d68383' //orange(#ffc6ff) or brown #dda15e
-const colorCE = '#9bf6ff' //cyan
+const colorNE = light_red //yellow
+const colorCW =  cyan //orange(#ffc6ff) or brown #dda15e
+const colorCE = pasty //cyan
 const colorSW = '#bc9e82' 
 const colorSC = 'green'  
-const colorSE = 'pink' //red
+const colorSE = 'pink'
 //blue a0c4ff
 
 const sunColors = {
