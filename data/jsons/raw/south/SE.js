@@ -16,7 +16,7 @@ const SE = { "cards": [
         // "image": TwistImage,
     },
         { "title": "Pre-order/Order Bit by Bit",
-        "description": "Bit by Bit is being published by the Stanford University Press on June 4th, 2024 and is available for pre-order domestically and internationally. Feel free to pre-order on Amazon or Google 'bit by bit ecy king' to find out more. Appreciate your support!",
+        "description": "Bit by Bit will be published by Stanford University Press on June 4th, 2024, and will be available domestically and internationally. Pre-order on Amazon or Google 'bit by bit ecy king' for mroe. Appreciate your support!",
         "buttons": [
             { "name": "LinkedIn", 
                 "link": "www.linkedin.com/in/ecy-king-35b2241a5/"
@@ -34,7 +34,7 @@ const SE = { "cards": [
         // "image": TwistImage,
     },
             { "title": "Fractal Gridding",
-        "description": "Generally speaking, I'm really passionate about Fractal Gridding and its learning capabilities. As someone with many random, chaotic thoughts, it's helped em to organize my ideas and build upon them. If you're interested in learning more about it feel free to contact me at ecyfemi@stanford.edu!",
+        "description": "I'm really passionate about Fractal Gridding and its learning capabilities. It has helped me to organize and build upon my many thoughts. If you're interested in learning more about it let me know! I'm @bitbybitcomic on Insta.",
         "buttons": [
             { "name": "LinkedIn", 
                 "link": "www.linkedin.com/in/ecy-king-35b2241a5/"
@@ -43,7 +43,7 @@ const SE = { "cards": [
         // "image": TwistImage,
     },
             { "title": "Jam Coders CS Camp + NY",
-        "description": "This summer, I'll be in jamaica fror a month serving as a TA for JamCoders. I'm really excited about that as I love teaching intro CS> ",
+        "description": "Over Spring Break, I'll be in NYC for an educational service trip. This summer, I'll be in Jamaica fror a month serving as a TA for JamCoders. I'm really excited about getting to travel and learn about/teaching things I love.",
         "buttons": [
             { "name": "LinkedIn", 
                 "link": "www.linkedin.com/in/ecy-king-35b2241a5/"
@@ -63,7 +63,7 @@ const SE = { "cards": [
 
 
         { "title": "Bit by Bit's Instagram",
-        "description": "Feel free to also follow and/or DM me on Instagram. My comic acount is @bitbybitcomic. I'd appreciate it if you'd follow along on this lil journey of mine!",
+        "description": "Feel free to also contact, follow and/or DM me on Instagram. My comic acount is @bitbybitcomic. I'd appreciate it if you'd follow along on this lil journey of mine!",
         "buttons": [
             { "name": "Instagram", 
                 "link": "www.instagram.com/bitbybitcomic/"
