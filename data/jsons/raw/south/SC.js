@@ -82,8 +82,9 @@ const SC = { "cards": [
                 "link": "www.canva.com/design/DAF73k2C-P4/u6lF42REmuflriqeqbIoxQ/watch?utm_content=DAF73k2C-P4&utm_campaign=designshare&utm_medium=link&utm_source=editor"
             }
         ],
-        "image": FtImage,
+        // "image": FtImage,
     },
+
 
 
 
@@ -97,7 +98,7 @@ const SC = { "cards": [
                 "link": "www.youtube.com/watch?v=5KuhWNDvLs0"
             }
         ],
-        "image": ChoirImage,
+        // "image": ChoirImage,
     },
 
  

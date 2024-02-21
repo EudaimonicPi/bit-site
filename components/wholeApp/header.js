@@ -1,6 +1,7 @@
 // TO DO: export for decomp?
 const headerStyles = {
-  backgroundColor: "#add8e6",
+  // backgroundColor: "#add8e6",
+  backgroundColor: 'black',
   padding: "0.25%",
   height: "100%", //does this do anything? 
   width: "100%",
