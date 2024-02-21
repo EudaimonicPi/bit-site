@@ -18,28 +18,28 @@ const eightUses = "www.youtube.com/watch?v=IuJ_QkAZbV8"
 
 const SW = { "cards": [
 
-    { "title": "Why Fractal Gridding?",
-        "description": "I genuinely believe it's an incredible tool that's changed the way I think, organize my life, and perceive the world. Even though I've known of it much of my life, there's a reason why I'm using it so ardently now :D",
+    { "title": "Comic Book",
+        "description": "Bit by Bit is a 160-page CS comic, based on Stanford's CS106A & CS106B. It uses Fractal Gridding, visual thinking, storytelling, concept personification, and learning psychology to serve as a source of edutainment. It also flips.",
         "buttons": [
             { "name": "My To Do Lists", 
                 "link": todoLink
             }
         ],
-        "image": GridImage,
+        // "image": GridImage,
     },
 
-    { "title": "What is Fractal Gridding?",
-        "description": "So what's this thing I'm super passionate about? It's a way of notetaking, of organizing thoughts in a manner that works with my brain. I use it for notes, todo lists, organizing my life... And want to share it with others :D",
+    { "title": "Fractal Gridding",
+        "description": "The book is Fractal Griddedd. Imagine a 3x3, outlined tic-tac-toe with a bolded center. Each tic-tac-toe can have another similar structure inside. That's a Fractal Grid! The structure is key to the book and speed of completion.",
         "buttons": [
             { "name": "Read More", 
                 "link": medArticleLink
             }
         ],
-        "image": Sketch2Image,
+        "image": GridImage,
     },
 
-    { "title": "How to do it?",
-        "description": "If you're curious on how to do it, I have a few tutorials from an interesting era of mine, including a short and longer one.",
+    { "title": "Flip It!",
+        "description": "The comic book is double-sided. One side is for CS106A content; the other for CS106B. Students in either class can read from their own beginning. Each side has 6 chapters for a combined total of 12 book chapters.",
         "buttons": [
             { "name": "How to Grid in 30s", 
                 "link": howtogridlink
@@ -49,8 +49,8 @@ const SW = { "cards": [
         ],
         "image": SketchImage,
     },
-    { "title": "Why Fractal Gridding?",
-        "description": "As a visual person, I often combine gridding with doodling to really bring my ideas, notes, and thoughts to life. ",
+    { "title": "Edutainment",
+        "description": "Bit by Bit is educational entertainment (edutainment) aiming to teach material in a fun and accessible way. Colorful characters include Sir Python Snake, his rival C++ Camel, Esq., Mama If, and her son Mr. While Loop.",
         "buttons": [
             { "name": "FG Notepad Tour", 
                 "link": fgnotepadTour
@@ -59,8 +59,8 @@ const SW = { "cards": [
         "image": ConsciousImage
     },
 
-    { "title": "Personal Uses",
-        "description": "Personally, I use it for my calendar (analog), daily to do list, class to do list, tab management, personal website, class notes, and have even used it to write a book.",
+    { "title": "Educational Psychology Principles",
+        "description": "Bit by Bit uses chunking to digest dense content, the radial format to encourage non-linear thinking, and dual-encoding— putting the same information in both visuals and text— to facilitate better retention.",
         "buttons": [
             { "name": "Project Book", 
             //LinkedIn Uni project book
@@ -70,8 +70,8 @@ const SW = { "cards": [
         "image": FilledPostyImage,
     },
 
-        { "title": "History",
-        "description": "My dad invented it when I was a toddler, but only in college did I fully use it. My dad has MANY ideas. At times, he struggles sharing them with world. I want to change that, especially with such an awe-inspiring tool.",
+        { "title": "Other Concepts",
+        "description": "Concepts such as For Loops, While Loops, Big-O, and recursion are personified into characters with matching personalities. There is no overarching narrative but mini-stories such as with the Boolean couple.",
         "buttons": [
             { "name": "8 Uses", 
                 "link": eightUses
@@ -80,16 +80,6 @@ const SW = { "cards": [
         "image": TrizImage,
     },
 
-    { "title": "Want to Learn More?",
-        "description": "I can talk to the ends of the earth about not just the tool, but also ways to see if it's something that would work for how you organize your life :)",
-        "buttons": [
-            //may want to switch this and previous
-            { "name": "A White Paper :)", 
-                "link": "www.canva.com/design/DAEFwO4lV_c/FYXFI6O4QDI8w6en6C8Ebg/view?utm_content=DAEFwO4lV_c&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
-            }
-        ],
-        "image": BbBImage,
-    },
 
 ]
 }

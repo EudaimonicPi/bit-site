@@ -1,4 +1,4 @@
-import q23Image from '@/data/rawImages/NC/23qtitle.png'
+// import q23Image from '@/data/rawImages/NC/23qtitle.png'
 // import GameImage from '@/data/rawImages/NC/game.png'
 // import TreeGameImage from '@/data/rawImages/NC/gameTree.png'
 // import TreeImage from '@/data/rawImages/NC/tree.jpeg'

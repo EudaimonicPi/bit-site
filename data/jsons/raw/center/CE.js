@@ -1,4 +1,4 @@
-import ResumeImage from '@/data/cellImages/author.jpeg'
+import AuthorImage from '@/data/rawImages/CE/198reunion.jpeg'
 
 const commencementLink = "youtu.be/73Zy2sKMz7A?si=vasq53cBJoD438E7&t=4514"
 const CE = { "cards": [
@@ -65,7 +65,7 @@ const CE = { "cards": [
                 "link": "www.google.com"
             }
         ],
-        // "image": ResumeImage,
+        "image": AuthorImage,
     },
 
         { "title": "PIT-UN Conference",

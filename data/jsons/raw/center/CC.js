@@ -1,6 +1,5 @@
 import SelfImage from '@/data/rawImages/CC/hoovTow.jpeg'
 import FamImage from '@/data/rawImages/CC/fam.jpeg'
-import AuthorImage from '@/data/rawImages/CC/198reunion.jpeg'
 import MagPhotoImage from '@/data/rawImages/CC/magPhoto.jpeg'
 import CampusImage from '@/data/rawImages/CC/campus.jpeg'
 
@@ -24,7 +23,7 @@ const CC = { "cards": [
                 "link": "www.canva.com/design/DAF70_79t_A/XtkZtzbASJTqk2GiI7Bm4A/view?utm_content=DAF70_79t_A&utm_campaign=designshare&utm_medium=link&utm_source=editor"
             }
         ],
-        "image": AuthorImage,
+        // "image": AuthorImage,
     },
 
 
