@@ -5,8 +5,8 @@ const heading2 = "VPUE Grant & Oxford Origin"
 const heading3 = "Summer Work at Stanford"
 const heading4 = "The Finished Draft"
 const heading5 = "The 500 Copies"
-const heading6 = "Presentations"
-const heading7 = "Features & Recognitions" // music?
+const heading6 = "Book Features"
+const heading7 = "The Present" // music?
 const heading8 = "The Future"
 const middleHeading = "Bit by Bit Project Website"
 

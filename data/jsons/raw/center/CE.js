@@ -1,7 +1,6 @@
 import ResumeImage from '@/data/cellImages/author.jpeg'
 
 const commencementLink = "youtu.be/73Zy2sKMz7A?si=vasq53cBJoD438E7&t=4514"
-const aceCALink = "engineering.stanford.edu/students-academics/equity-and-inclusion-initiatives/undergraduate-programs/additional-calculus/meet"
 const CE = { "cards": [
     { "title": "The CS Department's 500 Copies",
         "description": "In the Spring, Stanford's CS Department bought 500 printed (not published) copies from SUP, delivered to the Department chair's office, thanks to James, John, Jerry, Mehran, Alan, Debby, Marcos, and Meredith!",
@@ -59,15 +58,27 @@ const CE = { "cards": [
         // "image": ResumeImage,
     },
 
-    { "title": "CS100ACE",
-        "description": "Currently, I'm the Instructor for CS100ACE, an extra session lab supplement to CS106A. Lecturing and curriculum design is fun! Students have gotten copies as a goodluck charm before their CS106A midterms.",
+        { "title": "CS198 Reunion Book Signing",
+        "description": "In October, the CS Dept held the Reunion for former CS106A/B TAs (the CS198 Community). The guests were awesome! I did a book signing at the event and the book was distributed to CS legends. TY Jim Shea!",
         "buttons": [
             { "name": "ACE", 
-                "link": aceCALink
+                "link": "www.google.com"
             }
         ],
         // "image": ResumeImage,
     },
+
+        { "title": "PIT-UN Conference",
+        "description": "I also presented on Bit by Bit at the 2023 PIT-UN (Public Interest Tech) Conference in Boston, at Boston University. I was selected as a student panelist. The sharing and learning there was an amazing experience.",
+        "buttons": [
+            { "name": "ACE", 
+                "link": "www.google.com"
+            }
+        ],
+        // "image": ResumeImage,
+    },
+
+
 ]
 }
 
