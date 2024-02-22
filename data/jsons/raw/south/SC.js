@@ -1,10 +1,11 @@
 // I feel very self conscious about my fro which wasn't the neatest when I lectured
 // software dev
-import ChoirImage from '@/data/rawImages/SC/choir.png'
+// import ChoirImage from '@/data/rawImages/SC/choir.png'
 import WackyImage from '@/data/rawImages/NE/wackyWalk.jpeg'
-import FtImage from '@/data/rawImages/SC/ft.jpeg'
+// import FtImage from '@/data/rawImages/SC/ft.jpeg'
 import NibsImage from '@/data/rawImages/SC/nibs.png'
-import SunsetImage from '@/data/rawImages/SC/sunset.jpeg'
+// import SunsetImage from '@/data/rawImages/SC/sunset.jpeg'
+import ClassImage from '@/data/rawImages/SC/class.png'
 const aceCALink = "engineering.stanford.edu/students-academics/equity-and-inclusion-initiatives/undergraduate-programs/additional-calculus/meet"
 const classNotes = "drive.google.com/drive/folders/130hjGtPxiuCSfPrLjun7JP-s0PiAVdAk"
 const SC = { "cards": [
@@ -27,7 +28,7 @@ const SC = { "cards": [
                 "link": classNotes
             }
         ],
-        "image": SunsetImage,
+        "image": ClassImage,
     },
 
         { "title": "On Being Recognized: ",
@@ -40,7 +41,7 @@ const SC = { "cards": [
             { "name": "The Scholarship", 
         "link": "finance.yahoo.com/news/cadence-2023-diversity-technology-scholarship-171500286.html"}
         ],
-        "image": NibsImage,
+        // "image": NibsImage,
     },
 
         { "title": "Upcoming Presentations:",
@@ -62,7 +63,7 @@ const SC = { "cards": [
                 "link": "www.canva.com/design/DAF73k2C-P4/u6lF42REmuflriqeqbIoxQ/watch?utm_content=DAF73k2C-P4&utm_campaign=designshare&utm_medium=link&utm_source=editor"
             }
         ],
-        "image": FtImage,
+        // "image": FtImage,
     },
       { "title": "Fractal Gridding (Comics)",
     //want to mention it's where my CS teaching journey begain but hmmm....
@@ -72,7 +73,7 @@ const SC = { "cards": [
                 "link": "www.canva.com/design/DAF73k2C-P4/u6lF42REmuflriqeqbIoxQ/watch?utm_content=DAF73k2C-P4&utm_campaign=designshare&utm_medium=link&utm_source=editor"
             }
         ],
-        "image": FtImage,
+        // "image": FtImage,
     },
       { "title": "The Software",
     //want to mention it's where my CS teaching journey begain but hmmm....
