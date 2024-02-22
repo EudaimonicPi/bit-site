@@ -3,7 +3,7 @@
 // import ChoirImage from '@/data/rawImages/SC/choir.png'
 import WackyImage from '@/data/rawImages/NE/wackyWalk.jpeg'
 // import FtImage from '@/data/rawImages/SC/ft.jpeg'
-import NibsImage from '@/data/rawImages/SC/nibs.png'
+// import NibsImage from '@/data/rawImages/SC/nibs.png'
 // import SunsetImage from '@/data/rawImages/SC/sunset.jpeg'
 import ClassImage from '@/data/rawImages/SC/class.png'
 const aceCALink = "engineering.stanford.edu/students-academics/equity-and-inclusion-initiatives/undergraduate-programs/additional-calculus/meet"

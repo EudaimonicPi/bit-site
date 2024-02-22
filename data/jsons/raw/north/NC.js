@@ -1,11 +1,9 @@
 import InitIdeasImage from '@/data/rawImages/NC/grantStart.jpeg'
 import EpiphanyImage from '@/data/rawImages/NC/ideas.jpeg'
 import TravelImage from '@/data/rawImages/NC/radcam.jpeg'
-// import SprintImage from '@/data/rawImages/NC/epiphany.jpeg'
 import ThanksImage from '@/data/rawImages/NC/grant_thanks.png' 
-import StoneImage from '@/data/rawImages/NC/stone.jpeg' 
 import ResubImage from '@/data/rawImages/NC/healthCheck.jpeg'
-import ConcernImage from '@/data/rawImages/NC/pix.jpeg'
+import ConcernImage from '@/data/rawImages/NC/mentors.png'
 import SprintImage from '@/data/rawImages/NC/oxwork.jpeg'
 import PosterImage from '@/data/rawImages/NC/poster.png'
 

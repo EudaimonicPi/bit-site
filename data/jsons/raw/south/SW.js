@@ -1,13 +1,11 @@
 // I feel very self conscious about my fro which wasn't the neatest when I lectured
 // notepad tour!
-import ConsciousImage from '@/data/rawImages/SW/conscious.png'
-import GridImage from '@/data/rawImages/SW/gridGraphic.jpeg'
-import FilledPostyImage from '@/data/rawImages/SW/filledPosty.jpg'
-import TrizImage from '@/data/rawImages/SW/triz.png'
-import SketchImage from '@/data/rawImages/SW/sketchnote.jpeg'
-import Sketch2Image from '@/data/rawImages/SW/sketchnote2.jpeg'
-import PosterImage from '@/data/rawImages/SW/poster.png'
 import BbBImage from '@/data/rawImages/SW/BbBsamp.png'
+import BooksImage from '@/data/rawImages/SW/copies500sup.jpeg'
+import PatternImage from '@/data/rawImages/SW/pattern.jpg'
+import VariableImage from '@/data/rawImages/SW/var.png'
+import IntImage from '@/data/rawImages/SW/ints.jpeg'
+import ASideImage from '@/data/rawImages/SW/a_side.jpeg'
 
 const howtogridlink = "www.youtube.com/watch?v=-8rw7PEMT78"
 const todoLink = "www.youtube.com/watch?v=ox7Z2xYwK68&t=2s"
@@ -25,7 +23,7 @@ const SW = { "cards": [
                 "link": todoLink
             }
         ],
-        // "image": GridImage,
+        "image": BooksImage,
     },
 
     { "title": "Fractal Gridding",
@@ -35,7 +33,7 @@ const SW = { "cards": [
                 "link": medArticleLink
             }
         ],
-        "image": GridImage,
+        "image": BbBImage,
     },
 
     { "title": "Flip It!",
@@ -47,7 +45,7 @@ const SW = { "cards": [
             {"name": "Longer Tutorial",
         "link": gridTutorialLongLink }
         ],
-        "image": SketchImage,
+        "image": ASideImage,
     },
     { "title": "Edutainment",
         "description": "Bit by Bit is educational entertainment (edutainment) aiming to teach material in a fun and accessible way. Colorful characters include Sir Python Snake, his rival C++ Camel, Esq., Mama If, and her son Mr. While Loop.",
@@ -56,7 +54,7 @@ const SW = { "cards": [
                 "link": fgnotepadTour
             }
         ],
-        "image": ConsciousImage
+        "image": PatternImage
     },
 
     { "title": "Educational Psychology Principles",
@@ -67,17 +65,17 @@ const SW = { "cards": [
                 "link": "www.linkedin.com/pulse/meet-universal-project-book-fractal-gridding-notepad-ecy-king/?trackingId=h9Ciq60m2MqP0Wg9h3DhCA%3D%3D"
             }
         ],
-        "image": FilledPostyImage,
+        "image": IntImage,
     },
 
         { "title": "Other Concepts",
-        "description": "Concepts such as For Loops, While Loops, Big-O, and recursion are personified into characters with matching personalities. There is no overarching narrative but mini-stories such as with the Boolean couple.",
+        "description": "Concepts such as variables, loops, Big-O, and recursion are personified into characters with matching personalities. There is no overarching narrative but mini-stories such as with the Boolean couple.",
         "buttons": [
             { "name": "8 Uses", 
                 "link": eightUses
             }
         ],
-        "image": TrizImage,
+        "image": VariableImage,
     },
 
 

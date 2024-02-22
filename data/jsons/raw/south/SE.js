@@ -2,7 +2,7 @@ import IGImage from '@/data/rawImages/SE/ig.png'
 import LinkedInImage from '@/data/rawImages/SE/linky.png'
 import TwistImage from '@/data/rawImages/SE/twists.jpeg'
 import NibsImage from '@/data/rawImages/SE/nibs.png'
-import PatternImage from '@/data/rawImages/SE/pattern.jpg'
+import PatternImage from '@/data/rawImages/SE/ig.png'
 
 
 const SE = { "cards": [
