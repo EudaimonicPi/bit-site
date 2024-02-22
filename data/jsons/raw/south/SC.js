@@ -4,8 +4,12 @@
 import WackyImage from '@/data/rawImages/NE/wackyWalk.jpeg'
 // import FtImage from '@/data/rawImages/SC/ft.jpeg'
 // import NibsImage from '@/data/rawImages/SC/nibs.png'
-// import SunsetImage from '@/data/rawImages/SC/sunset.jpeg'
+import CoverImage from '@/data/rawImages/SC/cover.jpeg'
 import ClassImage from '@/data/rawImages/SC/class.png'
+import ACEImage from '@/data/rawImages/SC/ACE.jpeg'
+import FbImage from '@/data/rawImages/SC/fb.png'
+
+const supBook = "www.sup.org/books/title/?id=37945&bottom_ref=subject"
 const aceCALink = "engineering.stanford.edu/students-academics/equity-and-inclusion-initiatives/undergraduate-programs/additional-calculus/meet"
 const classNotes = "drive.google.com/drive/folders/130hjGtPxiuCSfPrLjun7JP-s0PiAVdAk"
 const SC = { "cards": [
@@ -16,7 +20,7 @@ const SC = { "cards": [
                 "link": aceCALink
             }
         ],
-        // "image": ResumeImage,
+        "image": ACEImage,
     },
 
 
@@ -35,13 +39,10 @@ const SC = { "cards": [
     //want to mention it's where my CS teaching journey begain but hmmm....
         "description": "At times, it's surreal being recognized, from a TA at Office Hours to a lecturer who told me I inspired him, and students from the Comics Research Class. I'm grateful for the Stanford community support, enthusiasm, and vitality.",
         "buttons": [
-            { "name": "Our CS147 Project", 
-                "link": "hci.stanford.edu/courses/cs147/2021/wi/projects/EngagementinDigitalPhysicalSpace/audiYO/"
-            },
-            { "name": "The Scholarship", 
-        "link": "finance.yahoo.com/news/cadence-2023-diversity-technology-scholarship-171500286.html"}
+            { "name": "Reflecting on that", 
+        "link": "www.linkedin.com/pulse/5-years-ago-ecy-king-s9rgc%3FtrackingId=L%252Fmbqn6ITjCcy1NaSJUejw%253D%253D/?trackingId=L%2Fmbqn6ITjCcy1NaSJUejw%3D%3D"}
         ],
-        // "image": NibsImage,
+        "image": FbImage,
     },
 
         { "title": "Upcoming Presentations:",
@@ -85,24 +86,16 @@ const SC = { "cards": [
         ],
         // "image": FtImage,
     },
-
-
-
-
-
-
         { "title": "The Stanford University Press",
     //want to mention it's where my CS teaching journey begain but hmmm....
         "description": "I've been working with the Stanford University Press these past few mongths to get a finalized first edition out. There's a new cover, new hope, new dreams. The book is available for pre-order and comes out June 4th, 2024.",
         "buttons": [
-            { "name": "Old Choir Kid Vid", 
-                "link": "www.youtube.com/watch?v=5KuhWNDvLs0"
+            { "name": "The book on SUP", 
+                "link": supBook
             }
         ],
-        // "image": ChoirImage,
+        "image": CoverImage,
     },
-
- 
 ]
 }
 
