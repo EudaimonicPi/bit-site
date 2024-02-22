@@ -1,13 +1,11 @@
-// I feel very self conscious about my fro which wasn't the neatest when I lectured
-// software dev
-// import ChoirImage from '@/data/rawImages/SC/choir.png'
-import WackyImage from '@/data/rawImages/NE/wackyWalk.jpeg'
-// import FtImage from '@/data/rawImages/SC/ft.jpeg'
-// import NibsImage from '@/data/rawImages/SC/nibs.png'
 import CoverImage from '@/data/rawImages/SC/cover.jpeg'
 import ClassImage from '@/data/rawImages/SC/class.png'
 import ACEImage from '@/data/rawImages/SC/ACE.jpeg'
 import FbImage from '@/data/rawImages/SC/fb.png'
+import UnaImage from '@/data/rawImages/SC/una.png'
+import SiteImage from '@/data/rawImages/SC/bitsite.png'
+import PrezImage from '@/data/rawImages/SC/design.jpeg'
+
 
 const supBook = "www.sup.org/books/title/?id=37945&bottom_ref=subject"
 const aceCALink = "engineering.stanford.edu/students-academics/equity-and-inclusion-initiatives/undergraduate-programs/additional-calculus/meet"
@@ -36,7 +34,6 @@ const SC = { "cards": [
     },
 
         { "title": "On Being Recognized: ",
-    //want to mention it's where my CS teaching journey begain but hmmm....
         "description": "At times, it's surreal being recognized, from a TA at Office Hours to a lecturer who told me I inspired him, and students from the Comics Research Class. I'm grateful for the Stanford community support, enthusiasm, and vitality.",
         "buttons": [
             { "name": "Reflecting on that", 
@@ -52,7 +49,7 @@ const SC = { "cards": [
                 "link": "www.youtube.com/watch?v=ICqnxBcDp0E"
             }
         ],
-        // "image": NibsImage,
+        "image": PrezImage,
     },
 
 
@@ -60,15 +57,14 @@ const SC = { "cards": [
     //want to mention it's where my CS teaching journey begain but hmmm....
         "description": "I got funded for another grant from the Center for Teaching Learning (CTL) to make an inclusive guide for CS TAs. It's also a Fractal Gridded Comic and it's called una kushe. I'm experimenting a little bit with style as well :)",
         "buttons": [
-            { "name": "The Song (Press Play!)", 
-                "link": "www.canva.com/design/DAF73k2C-P4/u6lF42REmuflriqeqbIoxQ/watch?utm_content=DAF73k2C-P4&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+            { "name": "CTL Grants", 
+                "link": "ctl.stanford.edu/ctl-great-grant"
             }
         ],
-        // "image": FtImage,
+        "image": UnaImage,
     },
       { "title": "Fractal Gridding (Comics)",
-    //want to mention it's where my CS teaching journey begain but hmmm....
-        "description": "I'm working to bring tehese to the world Bit by Bit. There are already communities in China and Sierra Leone doing Fractal Gridded comic pages, and comic books with this format are very scalable, so looking forward to the possibilities that offers.",
+        "description": "I'm working to bring these to the world Bit by Bit. There are already communities in China and Sierra Leone doing Fractal Gridded comic pages, and comic books with this format are very scalable, so looking forward to the possibilities that offers.",
         "buttons": [
             { "name": "The Song (Press Play!)", 
                 "link": "www.canva.com/design/DAF73k2C-P4/u6lF42REmuflriqeqbIoxQ/watch?utm_content=DAF73k2C-P4&utm_campaign=designshare&utm_medium=link&utm_source=editor"
@@ -84,7 +80,7 @@ const SC = { "cards": [
                 "link": "www.canva.com/design/DAF73k2C-P4/u6lF42REmuflriqeqbIoxQ/watch?utm_content=DAF73k2C-P4&utm_campaign=designshare&utm_medium=link&utm_source=editor"
             }
         ],
-        // "image": FtImage,
+        "image": SiteImage,
     },
         { "title": "The Stanford University Press",
     //want to mention it's where my CS teaching journey begain but hmmm....

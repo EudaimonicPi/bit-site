@@ -6,7 +6,8 @@ import OGBitImage from '@/data/rawImages/NW/BbB.png'
 const personalWebsite = "cogsplat.vercel.app/L1"
 const bitlink = 'www.google.com/search?q=bit+by+bit+ecy+king&rlz=1C5CHFA_enUS890US890&oq=bit+by+bit+ecy+king&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyBggEEEUYOzIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCjEyMjkwajBqMTWoAgCwAgA&sourceid=chrome&ie=UTF-8'
 const symsysLink = "symsys.stanford.edu/people/ecy-femi-king"
-
+// TO DO: include
+const authorBioLink = "www.canva.com/design/DAF70_79t_A/XtkZtzbASJTqk2GiI7Bm4A/view?utm_content=DAF70_79t_A&utm_campaign=designshare&utm_medium=link&utm_source=editor"
 //mention what I did at Stanford
 const NW = { "cards": [
 
