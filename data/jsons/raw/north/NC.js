@@ -1,22 +1,23 @@
-// import q23Image from '@/data/rawImages/NC/23qtitle.png'
-// import GameImage from '@/data/rawImages/NC/game.png'
-// import TreeGameImage from '@/data/rawImages/NC/gameTree.png'
-// import TreeImage from '@/data/rawImages/NC/tree.jpeg'
-// import PostyImage from '@/data/rawImages/NC/posty.jpeg'
-// import PianoImage from '@/data/rawImages/NC/piano.jpeg'
-// import CloudImage from '@/data/rawImages/NC/cloud.png'
-//NOTE: MOVE TRAVEL IMAGE TO NC FOLDRE
-import TravelImage from '@/data/rawImages/NE/radcam.jpeg'
-
+import InitIdeasImage from '@/data/rawImages/NC/grantStart.jpeg'
+import EpiphanyImage from '@/data/rawImages/NC/ideas.jpeg'
+import TravelImage from '@/data/rawImages/NC/radcam.jpeg'
+// import SprintImage from '@/data/rawImages/NC/epiphany.jpeg'
 import ThanksImage from '@/data/rawImages/NC/grant_thanks.png' 
+import StoneImage from '@/data/rawImages/NC/stone.jpeg' 
+import ResubImage from '@/data/rawImages/NC/healthCheck.jpeg'
+import ConcernImage from '@/data/rawImages/NC/pix.jpeg'
+import SprintImage from '@/data/rawImages/NC/oxwork.jpeg'
+import PosterImage from '@/data/rawImages/NC/poster.png'
 
 const theFeature = "undergradresearch.stanford.edu/people/ecy-king"
 const majorGrantInfoLink = "undergradresearch.stanford.edu/fund-your-project/explore-student-grants/major"
 const computerlandLink = "ecy123.itch.io/computerland"
 const srSynthLink = "docs.google.com/document/d/199HMpUtVCxoTOUm-6tggL1RNCvhhm_xI0u1hYMqx3j0/edit?usp=sharing"
 const oldSrSynthLink = "docs.google.com/document/d/1agWiWn5RE5IYrzQ6aVL-2ULpyN5iiGYV3lJEwUlbU8M/edit?usp=sharing"
+const tutorialLink = "www.figma.com/proto/CwgkAcI3NYKq0mP9Yjh9GS/Tutorial-%238-Proj?type=design&node-id=2-2&t=I38otP2agRIg3Nue-0&scaling=min-zoom&page-id=0%3A1"
 const christinaLink = "cwodtke.com/"
 const geLink = "en.wikipedia.org/wiki/Ge_Wang"
+
 // const revSrSynthLink = "docs.google.com/document/d/1zUFHwtlI62b57Bbl3nG1kZHPyaAIkLVnYmn7B2_WKXE/edit?usp=sharing"
 const NC = { "cards": [
     
@@ -38,7 +39,7 @@ const NC = { "cards": [
                 "link": oldSrSynthLink
             }
         ],
-        // "image": GameImage,
+        "image": InitIdeasImage,
     },
 
         { "title": "Epiphany",
@@ -48,7 +49,7 @@ const NC = { "cards": [
                 "link": srSynthLink
             }
         ],
-        // "image": PostyImage,
+        "image": EpiphanyImage,
     },
 
 
@@ -60,17 +61,17 @@ const NC = { "cards": [
                 "link": srSynthLink
             }
         ],
-        // "image": PianoImage,
+        "image": SprintImage,
     },
 
         { "title": "Submitted!",
         "description": "I spent many late nights and early mornings awake in England, working against the clock as others were asleep in the Stanford House. Passion drove me, I now had a clear vision, and on the day of the deadline I submitted it.",
         "buttons": [
-            { "name": "The Initial Grant", 
-                "link": srSynthLink
+            { "name": "Tutorial Prototype Poster", 
+                "link": tutorialLink
             }
         ],
-        // "image": TreeImage,
+        "image": PosterImage,
 
         }   ,
 
@@ -81,7 +82,7 @@ const NC = { "cards": [
                 "link": srSynthLink
             }
         ],
-        // "image": TreeImage,
+        "image": ResubImage,
 
         }   ,
 
@@ -97,7 +98,7 @@ const NC = { "cards": [
                 "link": geLink
             },
         ],
-        // "image": TreeImage,
+        "image": ConcernImage,
 
         }   ,
 

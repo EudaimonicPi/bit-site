@@ -24,7 +24,7 @@ const SE = { "cards": [
         ],
         // "image": TwistImage,
     },
-            { "title": "Fractal Gridded Comic Genre",
+            { "title": "Fractal Gridded Comic Use",
         "description": "With Bit by Bit and Una Kushe, one of my goals is to spread the Fractal Gridded Comic Genre with the world to make digestible content for complex yet beautiful subjects like Computer Science and Teaching.",
         "buttons": [
             { "name": "LinkedIn", 
@@ -43,7 +43,7 @@ const SE = { "cards": [
         // "image": TwistImage,
     },
             { "title": "Jam Coders CS Camp + NY",
-        "description": "Over Spring Break, I'll be in NYC for an educational service trip. This summer, I'll be in Jamaica fror a month serving as a TA for JamCoders. I'm really excited about getting to travel and learn about/teaching things I love.",
+        "description": "Over Spring Break, I'll be in NYC for an educational service trip. This summer, I was selected as a Jam Coders TA and will be in Jamaica for a month. I'm really excited about getting to travel and learn about/teaching things I love.",
         "buttons": [
             { "name": "LinkedIn", 
                 "link": "www.linkedin.com/in/ecy-king-35b2241a5/"

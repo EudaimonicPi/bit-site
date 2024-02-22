@@ -29,7 +29,7 @@ const SW = { "cards": [
     },
 
     { "title": "Fractal Gridding",
-        "description": "The book is Fractal Griddedd. Imagine a 3x3, outlined tic-tac-toe with a bolded center. Each tic-tac-toe can have another similar structure inside. That's a Fractal Grid! The structure is key to the book and speed of completion.",
+        "description": "The book is Fractal Gridded. Imagine a 3x3, outlined tic-tac-toe with a bolded center. Each tic-tac-toe can have another similar structure inside. That's a Fractal Grid! The structure is key to the book and speed of completion.",
         "buttons": [
             { "name": "Read More", 
                 "link": medArticleLink

@@ -1,4 +1,6 @@
-
+import FamImage from '@/data/rawImages/NW/fam.jpeg'
+import MeImage from '@/data/rawImages/NW/hoovTow.jpeg'
+import OGBitImage from '@/data/rawImages/NW/BbB.png'
 // to potentially include:
 
 const personalWebsite = "cogsplat.vercel.app/L1"
@@ -22,19 +24,19 @@ const NW = { "cards": [
             }
   
         ],
-        // "image": BbBCoverImage,
+        "image": MeImage,
     },
     // what problem did I solve? 
 
     { "title": "Bit by Bit Origins",
-        "description": "Out of a love for teaching Computer Science (CS), learning psychology, doodling, and Fractal Grididng, I created Bit by Bit, a Graphic Introduction to CS based around Stanford's Introductory CS classes CS106A and CS106B. It will be published by the Stanford University Press on June 4th, 2024 ",
+        "description": "Out of a love for teaching Computer Science (CS), learning psych, doodling, and Fractal Grididng, I created Bit by Bit, a Graphic Introduction to CS based on Stanford's Intro CS classes CS106A and CS106B.",
         "buttons": [
             { "name": "I love Fractal Gridding", 
                 "link": "www.amazon.com/Fractal-Gridding-Notepad-Visually-Lifespace/dp/0983825157/ref=sr_1_1?crid=3JXR16YU0NP9P&keywords=fractal+gridding+notepad&qid=1706172993&s=books&sprefix=fractal+gridding+notepa%2Cstripbooks%2C129&sr=1-1"
             },
         
         ],
-        // "image": NotepadImage,
+        "image": OGBitImage,
     },
 
         { "title": "More Background",
@@ -45,7 +47,7 @@ const NW = { "cards": [
                 "link": "stanforddaily.com/author/ecyking/"
             },
         ],
-        // "image": DailyImage,
+        "image": FamImage,
         },
 
 

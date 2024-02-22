@@ -1,15 +1,22 @@
-import MagImage from '@/data/rawImages/NE/SM.png'
-import GradReflectImage from '@/data/rawImages/NE/gradReflect.jpeg'
+// import MagImage from '@/data/rawImages/NE/SM.png'
+// import GradReflectImage from '@/data/rawImages/NE/gradReflect.jpeg'
 // OT FILL IN 
-import ClassImage from '@/data/rawImages/NE/class.png'
+// import ClassImage from '@/data/rawImages/NE/class.png'
 // import TravelImage from '@/data/rawImages/NE/radcam.jpeg' 
-import MusicalImage from '@/data/rawImages/NE/edges.png'
-import CASImage from '@/data/rawImages/NE/cas.jpeg'
+// // import MusicalImage from '@/data/rawImages/NE/edges.png'
+// import CASImage from '@/data/rawImages/NE/cas.jpeg'
 
-import CampusImage from '@/data/rawImages/NE/campus.jpeg'
-import GradCrewImage from '@/data/rawImages/NE/gradCrew.jpeg'
-//links
+import CampusImage from '@/data/rawImages/NE/summerStanford.jpeg'
+import ComicStoreImage from '@/data/rawImages/NE/isotope.jpeg'
+import PitchImage from '@/data/rawImages/NE/pitch.png'
 
+import WhiteboardImage from '@/data/rawImages/NE/whiteboard.jpeg'
+import LastSeshImage from '@/data/rawImages/NE/lastsesh.jpeg'
+import FeedbackImage from '@/data/rawImages/NE/feedback.jpeg'
+import FeedbackImage2 from '@/data/rawImages/NE/comm2.jpeg'
+
+import WorkImage from '@/data/rawImages/NE/work.jpeg'
+import DraftImage from '@/data/rawImages/NE/draft.jpeg'
 //INCLUDE STANFORD PIC INFRONT OF HOOV TOW WITH KAREL EARRING
 const NE = { "cards": [
 
@@ -20,7 +27,7 @@ const NE = { "cards": [
                 "link": "www.linkedin.com/pulse/i-graduated-from-stanford-23-ecy-king%3FtrackingId=ajvXY4m4SoW6c1rrlQpOBw%253D%253D/?trackingId=ajvXY4m4SoW6c1rrlQpOBw%3D%3D"
             },
         ],
-        // "image": GradReflectImage,
+        "image": CampusImage,
         },
 
         { "title": "Summer Planning",
@@ -31,7 +38,7 @@ const NE = { "cards": [
                 "link": "bosp.stanford.edu/explore-programs/oxford"
             },
         ],
-        // "image": TravelImage,
+        "image": ComicStoreImage,
         },
 
         { "title": "Summer Planning pt 2",
@@ -42,7 +49,7 @@ const NE = { "cards": [
                 "link": "stanforddaily.com/2024/01/30/first-night-at-the-opera-edges-narrates-stories-of-nostalgia-and-new-experiences/"
             },
         ],
-        // "image": MusicalImage,
+        "image": PitchImage,
         },
 
         { "title": "Weekly Plans",
@@ -53,7 +60,7 @@ const NE = { "cards": [
                 "link": "stanfordmag.org/contents/they-pay-me-to-do-this"
             },
         ],
-        // "image": GradCrewImage,
+        "image": FeedbackImage2,
         },
 
         { "title": "Feedback",
@@ -64,9 +71,7 @@ const NE = { "cards": [
                 "link": "www.youtube.com/watch?v=AzOabv23d5E"
             },
         ],
-        // "image": WackyImage,
-        // "image": ClassImage,
-
+        "image": FeedbackImage,
         },
 
           { "title": "On the Work Itself",
@@ -76,7 +81,7 @@ const NE = { "cards": [
                 "link": "www.youtube.com/watch?v=rZr5IpZ_xmw&pp=ygUIZWN5IGtpbmc%3D"
             }
         ],
-        // "image": CampusImage,
+        "image": WorkImage,
     },
 
 
@@ -88,7 +93,7 @@ const NE = { "cards": [
                 "link": "oval.stanford.edu/"
             },
         ],
-        // "image": CASImage,
+        "image": LastSeshImage,
         },
 
   
@@ -100,7 +105,7 @@ const NE = { "cards": [
                 "link": "www.youtube.com/watch?v=UwHd0In7Pbk"
             }
         ],
-        // "image": MagImage,
+        "image": DraftImage,
     },
 
 

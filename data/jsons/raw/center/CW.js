@@ -1,13 +1,11 @@
-// I feel very self conscious about my fro which wasn't the neatest when I lectured
-import VTFGImage from '@/data/rawImages/CW/vtfg.png'
-import LecImage from '@/data/rawImages/CW/lec.jpeg'
-import ComicPrezImage from '@/data/rawImages/CW/comicPrez.jpeg'
-// TO DO put right stuff
-import WkshpImage from '@/data/rawImages/CW/design.jpeg'
-import ConferenceImage from '@/data/rawImages/CW/john.PNG'
-import TeachingImage from '@/data/rawImages/CW/teach.png'
-// import TeachingImage from '@/data/cellImages/teaching.jpeg'
-
+import FacultyImage from '@/data/rawImages/CW/faculty.jpeg'
+import PosterImage from '@/data/rawImages/CW/supPoster.png'
+import PosterPrezImage from '@/data/rawImages/CW/poster.jpeg'
+import VPUEImage from '@/data/rawImages/CW/vpue.png'
+import GameImage from '@/data/rawImages/CW/game.png'
+import SUPLogoImage from '@/data/rawImages/CW/supLogo.png'
+import MachinaImage from '@/data/rawImages/CW/machina.png'
+import ComicsTalkImage from '@/data/rawImages/CW/comicPrez.jpeg'
 // PUT PICTURE OF VPUE poster prez and link event?
 const surpsLink = "undergradresearch.stanford.edu/share/surps-asurps" 
 const vpueStudentSpotlights = "undergradresearch.stanford.edu/student-spotlight/funded-student-grants"
@@ -21,6 +19,9 @@ const posterLink = "www.canva.com/design/DAFMpw9SORQ/AN3cE76ulWlfnFhtIrQJ-Q/view
 const comicsEvent = "events.stanford.edu/event/comics_more_than_words_-_bit_by_bit_by_ecy_king"
 const comicsResearchGrp = "dlcl.stanford.edu/research/comics-more-words"
 const comicsIG = "www.instagram.com/p/CoI4ZwOv2GX/?img_index=4"
+const gameLink = "ecy123.itch.io/computerland"
+const symsysLink = "symsys.stanford.edu/about/whats-name"
+const supLink = "www.sup.org/"
 const CW = { "cards": [
 
 
@@ -34,7 +35,7 @@ const CW = { "cards": [
                 "link": aboutSURPSIGLink
             }
         ],
-        // "image": VTFGImage,
+        "image": PosterImage,
     },
 
     { "title": "SURPS Poster Presentation",
@@ -49,7 +50,7 @@ const CW = { "cards": [
             },
 
         ],
-        // "image": LecImage,
+        "image": PosterPrezImage,
     },
 
     { "title": "VPUE Ambassador",
@@ -65,7 +66,7 @@ const CW = { "cards": [
                 "link": vpueStudentSpotlights
             }
         ],
-        // "image": ComicPrezImage,
+        "image": VPUEImage,
     },
 
     // include fac retreat pic ) 
@@ -77,7 +78,7 @@ const CW = { "cards": [
                 "link": jamesLink
             }
         ],
-        // "image": WkshpImage,
+        "image": FacultyImage,
     },
      { "title": "Comics Research Group Talk",
             "description": "One of my summer sectionees was a PhD student in a Comics Research Group. He co-taught their Stanford class and invited me to be a class speaker. Winter 2023, I spoke on Bit by Bit. The theme for the quarter was CS :)!",
@@ -93,23 +94,23 @@ const CW = { "cards": [
                     "link": comicsResearchGrp
                 },
             ],
-            // "image": TeachingImage,
+            "image": ComicsTalkImage,
         },
                 { "title": "The Prototyped Copies",
             "description": "I continued to share the prototyped copies with people— classmates, CS professors, folks at the d.school, fellow members of the SAA Board of Directors. I even made a Bit by Bit themed game for a class and got an A+.",
             "buttons": [
                 //TO DO: see if I can find the paper picture of my article in the daily :) 
-                { "name": "The game [FIX LINK]", 
-                    "link": "www.bu.edu/pitun2023/student-track/student-track-agenda/"
+                { "name": "The game", 
+                    "link": gameLink
                 },
-                 { "name": "The d.school [FIX LINK", 
-                    "link": supPropLink
+                 { "name": "The d.school", 
+                    "link": "/dschool.stanford.edu/"
                 },
-                                 { "name": "The SAA board [FIX LINK", 
-                    "link": supPropLink
+                                 { "name": "SAA board", 
+                    "link": "alumni.stanford.edu/about/leadership/"
                 },
             ],
-            // "image": ConferenceImage,
+            "image": GameImage,
         },
              { "title": "Machina Publication",
             "description": "In 2023, I submitted Bit by Bit for the inaugural edition Machina, the SymSys magazineion. Bit by Bit was accepted and featured in the magazine. Later on, I also presented the project at a SymSys poster session.",
@@ -118,24 +119,24 @@ const CW = { "cards": [
                  { "name": "Machina", 
                     "link": "www.symsyssociety.org/journal"
                 },
-                                 { "name": "SymSys What is [FIX]", 
-                    "link": supPropLink
+            { "name": "What is SymSys?", 
+                    "link": symsysLink
                 },
             ],
-            // "image": ConferenceImage,
+            "image": MachinaImage,
         },
         { "title": "SUP picks it up",
             "description": "With book prototypes from BookBaby, I gave some copies to my mentors. One mentor connected me with the University Press (SUP). Soon after a meeting in early 2023, SUP decided they wanted to publish Bit by Bit.",
             "buttons": [
                 //TO DO: see if I can find the paper picture of my article in the daily :) 
-                { "name": "SUP [FIX LINK]", 
-                    "link": "www.bu.edu/pitun2023/student-track/student-track-agenda/"
+                { "name": "SUP", 
+                    "link": supLink
                 },
                  { "name": "My book proposal", 
                     "link": supPropLink
                 },
             ],
-            // "image": ConferenceImage,
+            "image": SUPLogoImage,
         },
                
 ]
