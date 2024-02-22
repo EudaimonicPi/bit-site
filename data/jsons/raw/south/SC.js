@@ -5,6 +5,7 @@ import FbImage from '@/data/rawImages/SC/fb.png'
 import UnaImage from '@/data/rawImages/SC/una.png'
 import SiteImage from '@/data/rawImages/SC/bitsite.png'
 import PrezImage from '@/data/rawImages/SC/design.jpeg'
+import ChinaGridImage from '@/data/rawImages/SC/china.jpeg'
 
 
 const supBook = "www.sup.org/books/title/?id=37945&bottom_ref=subject"
@@ -70,7 +71,7 @@ const SC = { "cards": [
                 "link": "www.canva.com/design/DAF73k2C-P4/u6lF42REmuflriqeqbIoxQ/watch?utm_content=DAF73k2C-P4&utm_campaign=designshare&utm_medium=link&utm_source=editor"
             }
         ],
-        // "image": FtImage,
+        "image": ChinaGridImage,
     },
       { "title": "The Software",
     //want to mention it's where my CS teaching journey begain but hmmm....

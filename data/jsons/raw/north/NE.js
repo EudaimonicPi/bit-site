@@ -17,6 +17,7 @@ import FeedbackImage2 from '@/data/rawImages/NE/comm2.jpeg'
 
 import WorkImage from '@/data/rawImages/NE/work.jpeg'
 import DraftImage from '@/data/rawImages/NE/draft.jpeg'
+
 //INCLUDE STANFORD PIC INFRONT OF HOOV TOW WITH KAREL EARRING
 const NE = { "cards": [
 

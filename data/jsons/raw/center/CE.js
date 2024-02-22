@@ -7,7 +7,13 @@ import SMImage from '@/data/rawImages/CE/SM.png'
 import SummerImage from '@/data/rawImages/CE/lec.jpeg'
 import GradImage from '@/data/rawImages/CE/commencement.png'
 
+
+const cs198AlumLink = "nymag.com/intelligencer/2012/11/stanford-class-that-is-taking-over-tech.html"
+const cs198Article = "medium.com/@johnolilly/stanford-cs198-eric-roberts-acb4aaa5bad7"
+const cs198Link = "cs198.stanford.edu/cs198/ProgramStructure.aspx"
+const bitLink = "www.bu.edu/pitun2023/student-track/student-track-agenda/"
 const commencementLink = "youtu.be/73Zy2sKMz7A?si=vasq53cBJoD438E7&t=4514"
+const pitLink = "www.bu.edu/pitun2023/student-track/student-track-agenda/"
 const CE = { "cards": [
     { "title": "The CS Department's 500 Copies",
         "description": "In the Spring, Stanford's CS Department bought 500 printed (not published) copies from SUP, delivered to the Department chair's office, thanks to James, John, Jerry, Mehran, Alan, Debby, Marcos, and Meredith!",
@@ -22,8 +28,11 @@ const CE = { "cards": [
      { "title": "Section Leader (SL) Distribution",
         "description": "One SL Monday meeting, Mehran— legendary SL alum, CS106A lecturer, and CS Deptt Chair—  came with some 'surprise' boxes of Bit by Bit. He gave them out to SLs and even asked me to sign his copy. A moment indeed...",
         "buttons": [
-            { "name": "View", 
-                "link": "www.canva.com/design/DAF70lJuZSo/xddNF2SmIy3_AYWHm2Ut0w/view?utm_content=DAF70lJuZSo&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+            { "name": "CS198 Website", 
+                "link": cs198Link
+            },
+            { "name": "CS198 Article (2012)", 
+                "link": cs198Link
             }
         ],
         "image": MehranImage,
@@ -68,9 +77,14 @@ const CE = { "cards": [
         { "title": "CS198 Reunion Book Signing",
         "description": "In October, the CS Dept held the Reunion for former CS106A/B TAs (the CS198 Community). The guests were awesome! I did a book signing at the event and the book was distributed to CS legends. TY Jim Shea!",
         "buttons": [
-            { "name": "ACE", 
-                "link": "www.google.com"
-            }
+            { "name": "CS198 Article", 
+                "link": cs198AlumLink
+            },
+            { "name": "Reunion Article (2016)", 
+                "link": cs198Article
+            },
+            
+
         ],
         "image": AuthorImage,
     },
@@ -78,8 +92,8 @@ const CE = { "cards": [
         { "title": "PIT-UN Conference",
         "description": "I also presented on Bit by Bit at the 2023 PIT-UN (Public Interest Tech) Conference in Boston, at Boston University. I was selected as a student panelist. The sharing and learning there was an amazing experience.",
         "buttons": [
-            { "name": "ACE", 
-                "link": "www.google.com"
+            { "name": "PIT-UN 2023 at BU", 
+                "link": pitLink
             }
         ],
         "image": PITImage,

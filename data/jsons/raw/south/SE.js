@@ -5,6 +5,7 @@ import NibsImage from '@/data/rawImages/SE/nibs.png'
 import PatternImage from '@/data/rawImages/SE/ig.png'
 import CoverImage from '@/data/rawImages/SE/cover.jpeg'
 import BbBPageImage from '@/data/rawImages/SE/poster.png'
+import BookOutImage from '@/data/rawImages/SE/laid_out.jpeg'
 
 
 const SE = { "cards": [
@@ -24,7 +25,7 @@ const SE = { "cards": [
                 "link": "www.linkedin.com/in/ecy-king-35b2241a5/"
             }
         ],
-        // "image": TwistImage,
+        "image": BookOutImage,
     },
             { "title": "Fractal Gridding",
         "description": "I'm really passionate about Fractal Gridding and its learning capabilities. It has helped me to organize and build upon my many thoughts. If you're interested in learning more about it let me know! I'm @bitbybitcomic on Insta.",
