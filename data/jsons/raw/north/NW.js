@@ -3,11 +3,12 @@ import MeImage from '@/data/rawImages/NW/hoovTow.jpeg'
 import OGBitImage from '@/data/rawImages/NW/BbB.png'
 // to potentially include:
 
+// include contact & connect (LinkedIn and Instagram? Author bu)
 const personalWebsite = "cogsplat.vercel.app/L1"
 const bitlink = 'www.google.com/search?q=bit+by+bit+ecy+king&rlz=1C5CHFA_enUS890US890&oq=bit+by+bit+ecy+king&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyBggEEEUYOzIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCjEyMjkwajBqMTWoAgCwAgA&sourceid=chrome&ie=UTF-8'
 const symsysLink = "symsys.stanford.edu/people/ecy-femi-king"
-// TO DO: include
 const authorBioLink = "www.canva.com/design/DAF70_79t_A/XtkZtzbASJTqk2GiI7Bm4A/view?utm_content=DAF70_79t_A&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+const cs106aLink = "web.stanford.edu/class/archive/cs/cs106a/cs106a.1238/"
 //mention what I did at Stanford
 const NW = { "cards": [
 
@@ -15,14 +16,17 @@ const NW = { "cards": [
     { "title": "Who Am I?",
         "description": "My name is Ecy (AC) King, and I'm a Stanford University coterm, meaning I finished my BS in Symbolic Systems '23 (Human-Centered AI) and am currently doing my MS in Computer Science '24 (Human-Computer Interaction).",
         "buttons": [
-            { "name": "My Personal Website", 
+            { "name": "Personal Website", 
                 "link": personalWebsite
             },
+   
             {
-                "name": "SymSys Profile", 
+                "name": "Author Bio", 
+                "link": authorBioLink
+            },
+            { "name": "SymSys", 
                 "link": symsysLink
-
-            }
+            },
   
         ],
         "image": MeImage,
@@ -35,6 +39,12 @@ const NW = { "cards": [
             { "name": "I love Fractal Gridding", 
                 "link": "www.amazon.com/Fractal-Gridding-Notepad-Visually-Lifespace/dp/0983825157/ref=sr_1_1?crid=3JXR16YU0NP9P&keywords=fractal+gridding+notepad&qid=1706172993&s=books&sprefix=fractal+gridding+notepa%2Cstripbooks%2C129&sr=1-1"
             },
+           { "name": "CS106A", 
+                "link": cs106aLink
+            },
+
+
+
         
         ],
         "image": OGBitImage,
