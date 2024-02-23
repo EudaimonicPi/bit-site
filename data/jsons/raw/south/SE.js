@@ -1,5 +1,4 @@
-import IGImage from '@/data/rawImages/SE/ig.png'
-import LinkedInImage from '@/data/rawImages/SE/linky.png'
+import SiteImage from '@/data/rawImages/SE/bitsite.png'
 import TwistImage from '@/data/rawImages/SE/twists.jpeg'
 import NibsImage from '@/data/rawImages/SE/nibs.png'
 import PatternImage from '@/data/rawImages/SE/ig.png'
@@ -54,16 +53,7 @@ const SE = { "cards": [
         ],
         "image": NibsImage,
     },
-            { "title": "Pursuit of Happiness",
-        "description": "Grateful to be here and sharing things like this labor of love. I hope to be able to continue things like this in some capacity.",
-        "buttons": [
-            { "name": "LinkedIn", 
-                "link": "www.linkedin.com/in/ecy-king-35b2241a5/"
-            }
-        ],
-        "image": TwistImage,
-    },
-
+  
 
         { "title": "Bit by Bit's Instagram",
         "description": "Feel free to also contact, follow and/or DM me on Instagram. My comic acount is @bitbybitcomic. I'd appreciate it if you'd follow along on this lil journey of mine!",
@@ -75,14 +65,21 @@ const SE = { "cards": [
         "image": PatternImage,
     },
     { "title": "Fractal Grids + AI",
-        "description": "Feel free to also contact, follow and/or DM me on Instagram. My comic acount is @bitbybitcomic. I'd appreciate it if you'd follow along on this lil journey of mine!",
+        "description": "The app I'm developing uses LLM + AI + search to generate some cool grids. The dream is that Fractal Grids can be a dream interface for anyone, anything. Putting my CS degree to use!",
         "buttons": [
-            { "name": "Instagram", 
-                "link": "www.instagram.com/bitbybitcomic/"
-            }
+  
         ],
-        "image": PatternImage,
+        "image": SiteImage,
     },
+
+              { "title": "Pursuit of Happiness",
+        "description": "Grateful to be here and sharing things like this labor of love. I hope to be able to continue things like this in some capacity.",
+        "buttons": [
+  
+        ],
+        "image": TwistImage,
+    },
+
 ]
 }
 
