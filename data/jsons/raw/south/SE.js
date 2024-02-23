@@ -53,6 +53,15 @@ const SE = { "cards": [
         ],
         "image": NibsImage,
     },
+                  { "title": "Cadence Women In Tech Scholarship",
+        "description": "Recently, I won the 2023 Diversity in Tech Scholarship for Women in Technology from Cadence Design Sysyems. Very grateful for that :)!",
+        "buttons": [
+            {"name": "The Scholarship", "link": "finance.yahoo.com/news/cadence-2023-diversity-technology-scholarship-171500286.html",
+            "name": "Cadence", "link": "www.cadence.com/en_US/home.html" }
+  
+        ],
+        "image": TwistImage,
+    },
   
 
         { "title": "Bit by Bit's Instagram",

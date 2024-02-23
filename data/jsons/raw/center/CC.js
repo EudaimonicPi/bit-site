@@ -21,7 +21,7 @@ const CC = { "cards": [
              { "name": "Book Vid", 
                 "link": vpueIG
             },
-             { "name": "My Wesite", 
+             { "name": "My Website", 
                 "link": "cogsplat.vercel.app/L1"
             },
         ],
@@ -30,7 +30,7 @@ const CC = { "cards": [
 
     //maybe vary it up on instagram link to video? 
     { "title": "Bit by Bit Origins",
-        "description": "Bit by Bit was created through a Stanford Major Grant. The idea came to me in Oxford when I was studying education and looking to do a project combining my interests in Fractal Gridding, doodling, learning psychology & teaching CS.",
+        "description": "Bit by Bit was created through a Stanford Major Grant. The idea came to me in Oxford when I was studying education abroad and looking to do a project combining my interests in Fractal Gridding, doodling, learning psychology & teaching CS.",
         "buttons": [],
         "image": CampusImage,
     },
@@ -61,7 +61,7 @@ const CC = { "cards": [
         "image": PrezImage,
     },
     { "title": "The Future",
-        "description": "Bit by Bit is officially coming out June 4th, 2024. I'm excited for all the experiences that will come from that. With Fractal Gridded comics, I hope I can also share more edutainment with the world.",
+        "description": "Bit by Bit is officially coming out June 4th, 2024. I'm excited for all the experiences that will come from that. I hope others— writers, innovators, curious people— will be inspired to write, create, and share Fractal Gridded Comics and edutainment worldwide.",
         "buttons": [],
         "image":CoverImage,
     },
