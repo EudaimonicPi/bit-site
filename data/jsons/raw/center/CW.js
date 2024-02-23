@@ -22,6 +22,7 @@ const comicsIG = "www.instagram.com/p/CoI4ZwOv2GX/?img_index=4"
 const gameLink = "ecy123.itch.io/computerland"
 const symsysLink = "symsys.stanford.edu/about/whats-name"
 const supLink = "www.sup.org/"
+const symsysPosterLink = "docs.google.com/document/d/18wsShW0f8RMZmpdTHpXHgvSCsArnXP-ZWK6ltGsUJ6k/edit"
 const CW = { "cards": [
 
 
@@ -113,13 +114,16 @@ const CW = { "cards": [
             "image": GameImage,
         },
              { "title": "Machina Publication",
-            "description": "In 2023, I submitted Bit by Bit for the inaugural edition Machina, the SymSys magazineion. Bit by Bit was accepted and featured in the magazine. Later on, I also presented the project at a SymSys poster session.",
+            "description": "In 2023, I submitted Bit by Bit for the inaugural edition of Machina, the SymSys magazine. Bit by Bit was accepted and featured in the magazine. Later on, I also presented the project at a SymSys poster session.",
             "buttons": [
                 //TO DO: see if I can find the paper picture of my article in the daily :) 
                  { "name": "Machina", 
                     "link": "www.symsyssociety.org/journal"
                 },
-            { "name": "What is SymSys?", 
+                                 { "name": "Poster Fair", 
+                    "link": symsysPosterLink
+                },
+            { "name": "What's SymSys?", 
                     "link": symsysLink
                 },
             ],

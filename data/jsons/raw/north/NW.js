@@ -1,6 +1,7 @@
 import FamImage from '@/data/rawImages/NW/fam.jpeg'
 import MeImage from '@/data/rawImages/NW/hoovTow.jpeg'
 import OGBitImage from '@/data/rawImages/NW/BbB.png'
+import TwistsImage from '@/data/rawImages/NW/twists.jpeg'
 // to potentially include:
 
 // include contact & connect (LinkedIn and Instagram? Author bu)
@@ -9,6 +10,8 @@ const bitlink = 'www.google.com/search?q=bit+by+bit+ecy+king&rlz=1C5CHFA_enUS890
 const symsysLink = "symsys.stanford.edu/people/ecy-femi-king"
 const authorBioLink = "www.canva.com/design/DAF70_79t_A/XtkZtzbASJTqk2GiI7Bm4A/view?utm_content=DAF70_79t_A&utm_campaign=designshare&utm_medium=link&utm_source=editor"
 const cs106aLink = "web.stanford.edu/class/archive/cs/cs106a/cs106a.1238/"
+const linkedIn = "www.linkedin.com/in/ecy-king-35b2241a5/"
+const insta = "www.instagram.com/bitbybitcomic/"
 //mention what I did at Stanford
 const NW = { "cards": [
 
@@ -36,16 +39,13 @@ const NW = { "cards": [
     { "title": "Bit by Bit Origins",
         "description": "Out of a love for teaching Computer Science (CS), learning psych, doodling, and Fractal Grididng, I created Bit by Bit, a Graphic Introduction to CS based on Stanford's Intro CS classes CS106A and CS106B.",
         "buttons": [
-            { "name": "I love Fractal Gridding", 
-                "link": "www.amazon.com/Fractal-Gridding-Notepad-Visually-Lifespace/dp/0983825157/ref=sr_1_1?crid=3JXR16YU0NP9P&keywords=fractal+gridding+notepad&qid=1706172993&s=books&sprefix=fractal+gridding+notepa%2Cstripbooks%2C129&sr=1-1"
-            },
+ 
            { "name": "CS106A", 
                 "link": cs106aLink
             },
-
-
-
-        
+             { "name": "I love Fractal Gridding", 
+                "link": "www.amazon.com/Fractal-Gridding-Notepad-Visually-Lifespace/dp/0983825157/ref=sr_1_1?crid=3JXR16YU0NP9P&keywords=fractal+gridding+notepad&qid=1706172993&s=books&sprefix=fractal+gridding+notepa%2Cstripbooks%2C129&sr=1-1"
+            },
         ],
         "image": OGBitImage,
     },
@@ -59,6 +59,18 @@ const NW = { "cards": [
             },
         ],
         "image": FamImage,
+        },
+            { "title": "Contact Me",
+        "description": "Feel free to contact me on Instagram @bitbybitcomic or LinkedIn, linked below. ",
+        "buttons": [
+            //TO DO: see if I can find the paper picture of my article in the daily :) 
+            { "name": "LinkedIn", 
+                "link": linkedIn
+            },
+            {"name": "Insta",
+            "link": insta }
+        ],
+        "image": TwistsImage,
         },
 
 

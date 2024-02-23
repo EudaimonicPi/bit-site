@@ -65,6 +65,15 @@ const SE = { "cards": [
         ],
         "image": PatternImage,
     },
+    { "title": "Fractal Grids + AI",
+        "description": "Feel free to also contact, follow and/or DM me on Instagram. My comic acount is @bitbybitcomic. I'd appreciate it if you'd follow along on this lil journey of mine!",
+        "buttons": [
+            { "name": "Instagram", 
+                "link": "www.instagram.com/bitbybitcomic/"
+            }
+        ],
+        "image": PatternImage,
+    },
 ]
 }
 
