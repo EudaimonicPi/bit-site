@@ -2,19 +2,24 @@ import SelfImage from '@/data/rawImages/CC/hoovTow.jpeg'
 import FamImage from '@/data/rawImages/CC/fam.jpeg'
 import MagPhotoImage from '@/data/rawImages/CC/magPhoto.jpeg'
 import CampusImage from '@/data/rawImages/CC/campus.jpeg'
-
+import SummerEnd from '@/data/rawImages/CC/summerEnd.jpeg'
+import PosterPrezImage from '@/data/rawImages/CW/poster.jpeg'
+import BooksImage from '@/data/rawImages/SW/copies500sup.jpeg'
+import CoverImage from '@/data/rawImages/SE/cover.jpeg'
+import PrezImage from '@/data/rawImages/SC/design.jpeg'
+const cogSplat = "cogsplat.vercel.app/L1"
 const vpueIG = "www.instagram.com/reel/CmHecSljI6q/?utm_source=ig_web_copy_link"
-
+const amazon = "www.amazon.com/Bit-Graphic-Introduction-Computer-Science/dp/1503638766"
 const CC = { "cards": [
     { "title": "About Me",
         "description": "Hi! I'm Ecy (AC). I'm a Stanford student who wrote Bit by Bit, an educational Computer Science comic based around Stanford's Intro CS classes. It's being published by the Stanford University Press in June (woowoo!).",
         "buttons": [
 
              { "name": "Preorder :)", 
-                "link": "news.stanford.edu/report/2023/05/23/meet-ecy-king-23/"
+                "link": amazon
             },
              { "name": "Book Vid", 
-                "link": "news.stanford.edu/report/2023/05/23/meet-ecy-king-23/"
+                "link": vpueIG
             },
              { "name": "My Wesite", 
                 "link": "cogsplat.vercel.app/L1"
@@ -23,42 +28,44 @@ const CC = { "cards": [
         "image": SelfImage,
     },
 
-
-
-
     //maybe vary it up on instagram link to video? 
-    { "title": "About Me... from Stanford",
-        "description": "I love called Fractal Gridding.Here's more about me... from Stanford's perspective!",
-        "buttons": [
-            // change to same link maybe? 
-            { "name": "Read more from Stanford", 
-                "link": "news.stanford.edu/report/2023/05/23/meet-ecy-king-23/"
-            }
-        ],
+    { "title": "Bit by Bit Origins",
+        "description": "Bit by Bit was created through a Stanford Major Grant. The idea came to me in Oxford when I was studying education and looking to do a project combining my interests in Fractal Gridding, doodling, learning psychology & teaching CS.",
+        "buttons": [],
         "image": CampusImage,
     },
+        { "title": "The Summer Project",
+        "description": "Summer of 2022, I began working on the project full time. This involved writing chapters weekly, meeting with students, lecturers, TAs, and more for feedback, and lots of planning! I was also section leading CS106B, living in Norcliffe.",
+        "buttons": [],
+        "image": SummerEnd,
+    },
 
-    { "title": "About Me... from Stanford Alumni",
-        "description": "Here's a profile that was done on me by the Stanford Alumni Magazine if you're interested in SEEING more about me, my fam, and who I am (which is a thing even I dunno yet...)",
-        "buttons": [
-            // change to same link maybe? 
-            { "name": "Read more from Stanford Alum", 
-                "link": "stanfordmag.org/contents/meet-ecy-king"
-            }
-        ],
+           { "title": "Finishing the Draft",
+        "description": "In the Fall, I closed up the grant with the SURPS's poster presentation. Since then, I've gotten to present, publish, and share my book in classes like DLCL238, the CS Faculty Retreat, the SymSys magazine Machina, and conferences like PIT-UN. I also became a VPUE ambassador.",
+        "buttons": [ ],
+        "image": PosterPrezImage,
+    },
+           { "title": "500 Copies",
+        "description": "The Stanford University Press (SUP) then decided to pick up my book. The CS Department bought 500 prototyped copies from the press and the book spread. Section leaders had it, it was featured on Stanford's socials, and even a Commencement Address. I did a book signing at the CS198 reunion.",
+        "buttons": [],
         "image": MagPhotoImage,
     },
-
-        { "title": "Background",
-        "description": "I was born in Scotland, raised in the Central Valley in Fresno/Clovis, CA, and my family is from Sierra Leone. I'm a curious, reflective, goofy, and miscellaneous person who is enjoying the magic in the everyday :)",
-        "buttons": [
-            // change to same link maybe? 
-            { "name": "Portal to Old :D", 
-                "link": "stanfordmag.org/contents/meet-ecy-king"
-            }
-        ],
-        "image": FamImage,
+            { "title": "Design Features",
+        "description": "What makes Bit by Bit special? It uses a novel format called Fractal Gridding and also employs principles of learning psychology (chunking, radial thinking, dual encoding) and edutainment. It also flips for even more fun, one side for each intro CS course.",
+        "buttons": [],
+        "image": BooksImage,
     },
+        { "title": "The Present",
+        "description": "Currently, I'm still a Stanford student hoping to spread use of Fractal Gridded comics like Bit by Bit. The book has been presented in many different places, lots of opportunities have come, and I'm excited to see where things will go. ",
+        "buttons": [],
+        "image": PrezImage,
+    },
+    { "title": "The Future",
+        "description": "Bit by Bit is officially coming out June 4th, 2024. I'm excited for all the experiences that will come from that. With Fractal Gridded comics, I hope I can also share more edutainment with the world.",
+        "buttons": [],
+        "image":CoverImage,
+    },
+
 ]
 }
 
