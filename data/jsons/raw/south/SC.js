@@ -13,9 +13,12 @@ const aceCALink = "engineering.stanford.edu/students-academics/equity-and-inclus
 const classNotes = "drive.google.com/drive/folders/130hjGtPxiuCSfPrLjun7JP-s0PiAVdAk"
 const SC = { "cards": [
     { "title": "CS100ACE",
-        "description": "Currently, I'm the Instructor for CS100ACE, an extra session lab supplement to CS106A. Lecturing and curriculum design is fun! Students have gotten copies as a goodluck charm before their CS106A midterms.",
+        "description": "Currently, I'm the Instructor for CS100ACE, an extra session lab supplement to CS106A. Lecturing and curriculum design are fun! Students have gotten copies as a good luck charm before their CS106A midterms.",
         "buttons": [
-            { "name": "ACE", 
+             { "name": "ACE Program", 
+                "link": "engineering.stanford.edu/students-academics/equity-and-inclusion-initiatives/undergraduate-programs/additional-calculus"
+            },
+            { "name": "ACE CAs", 
                 "link": aceCALink
             }
         ],
@@ -24,7 +27,6 @@ const SC = { "cards": [
 
 
         { "title": "Classes",
-    //want to mention it's where my CS teaching journey begain but hmmm....
         "description": "I'm a Stanford coterm finishing up a CS masters. I'm currently taking a publishing class, a CS design class, an education class, and an independent study on Fractal Gridding. All my class notes are fractal gridded :)",
         "buttons": [
             { "name": "Some Class Notes", 
@@ -44,11 +46,9 @@ const SC = { "cards": [
     },
 
         { "title": "Upcoming Presentations:",
-        "description": "In February, I'll be giving a talk to highschool students at a virtual summit about Bit by Bit and passion projects; more on that later! I'm also giving a 1-hour lecture in a class I'm taking on Fractal Gridding and Bit by Bit.",
+        "description": "In February, I'll be giving a talk to high school students at a virtual summit about Bit by Bit and passion projects; more on that later! I'm also giving a 1-hour lecture in a class I'm talking on Fractal Gridding and Bit by Bit.",
         "buttons": [
-            { "name": "One of my Favs", 
-                "link": "www.youtube.com/watch?v=ICqnxBcDp0E"
-            }
+
         ],
         "image": PrezImage,
     },
@@ -56,7 +56,7 @@ const SC = { "cards": [
 
     { "title": "Another Grant",
     //want to mention it's where my CS teaching journey begain but hmmm....
-        "description": "I got funded for another grant from the Center for Teaching Learning (CTL) to make an inclusive guide for CS TAs. It's also a Fractal Gridded Comic and it's called una kushe. I'm experimenting a little bit with style as well :)",
+        "description": "I got another Stanford grant from the Center for Teaching Learning (CTL) to make an inclusive guide for CS TAs. It's also a Fractal Gridded Comic and it's called Una Kushe. I'm experimenting a little bit with style as well :)",
         "buttons": [
             { "name": "CTL Grants", 
                 "link": "ctl.stanford.edu/ctl-great-grant"
