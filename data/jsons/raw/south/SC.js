@@ -3,11 +3,11 @@ import ClassImage from '@/data/rawImages/SC/class.png'
 import ACEImage from '@/data/rawImages/SC/ACE.jpeg'
 import FbImage from '@/data/rawImages/SC/fb.png'
 import UnaImage from '@/data/rawImages/SC/una.png'
-import SiteImage from '@/data/rawImages/SC/bitsite.png'
+import SiteImage from '@/data/rawImages/SC/fgsite.png'
 import PrezImage from '@/data/rawImages/SC/design.jpeg'
 import ChinaGridImage from '@/data/rawImages/SC/china.jpeg'
 
-
+const preorderLink = "www.amazon.com/Bit-Graphic-Introduction-Computer-Science/dp/1503638766"
 const supBook = "www.sup.org/books/title/?id=37945&bottom_ref=subject"
 const aceCALink = "engineering.stanford.edu/students-academics/equity-and-inclusion-initiatives/undergraduate-programs/additional-calculus/meet"
 const classNotes = "drive.google.com/drive/folders/130hjGtPxiuCSfPrLjun7JP-s0PiAVdAk"
@@ -65,31 +65,31 @@ const SC = { "cards": [
         "image": UnaImage,
     },
       { "title": "Fractal Gridding (Comics)",
-        "description": "I'm working to bring these to the world Bit by Bit. There are already communities in China and Sierra Leone doing Fractal Gridded comic pages, and comic books with this format are very scalable, so looking forward to the possibilities that offers.",
+      // in future maybe show fractal gridded gallery
+        "description": "I'm working to bring these to the world. There are already communities in China and Sierra Leone doing Fractal Gridded comic pages. Comics with this format are very scalable and collaborative. Excited for the possibilities!",
         "buttons": [
-            { "name": "The Song (Press Play!)", 
-                "link": "www.canva.com/design/DAF73k2C-P4/u6lF42REmuflriqeqbIoxQ/watch?utm_content=DAF73k2C-P4&utm_campaign=designshare&utm_medium=link&utm_source=editor"
-            }
+      
         ],
         "image": ChinaGridImage,
     },
       { "title": "The Software",
     //want to mention it's where my CS teaching journey begain but hmmm....
-        "description": "I am currently working on a software for people to use Fractal Gridding online. It's a work in progress, but I may or may not have used it to plan parts of THIS website ;)",
+        "description": "I am currently working on a software for people to (collaboratively!) use Fractal Gridding online. It's a work in progress, but I may or may not have used the prototype to plan parts of THIS website ;)",
         "buttons": [
-            { "name": "The Song (Press Play!)", 
-                "link": "www.canva.com/design/DAF73k2C-P4/u6lF42REmuflriqeqbIoxQ/watch?utm_content=DAF73k2C-P4&utm_campaign=designshare&utm_medium=link&utm_source=editor"
-            }
+
         ],
         "image": SiteImage,
     },
         { "title": "The Stanford University Press",
     //want to mention it's where my CS teaching journey begain but hmmm....
-        "description": "I've been working with the Stanford University Press these past few mongths to get a finalized first edition out. There's a new cover, new hope, new dreams. The book is available for pre-order and comes out June 4th, 2024.",
+        "description": "I've been working with the Stanford University Press (SUP) these past few months to get a finalized first edition out. There's a new cover, new hope, new dreams. The book is available for pre-order and comes out June 4th, 2024.",
         "buttons": [
             { "name": "The book on SUP", 
                 "link": supBook
-            }
+            },
+            { "name": "Preorder!", 
+                "link": preorderLink
+            },
         ],
         "image": CoverImage,
     },
