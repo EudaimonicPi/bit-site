@@ -5,6 +5,7 @@ import PatternImage from '@/data/rawImages/SE/ig.png'
 import CoverImage from '@/data/rawImages/SE/cover.jpeg'
 import BbBPageImage from '@/data/rawImages/SE/poster.png'
 import BookOutImage from '@/data/rawImages/SE/laid_out.jpeg'
+import CadenceImage from '@/data/rawImages/SE/cadence.png'
 
 const preorderLink = "www.amazon.com/Bit-Graphic-Introduction-Computer-Science/dp/1503638766"
 const searchLink  = "www.google.com/search?q=bit+by+bit+ecy+king&rlz=1C5CHFA_enUS890US890&oq=bit+by&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUYOzIGCAMQRRg7MgYIBBBFGEAyBggFEEUYPTIGCAYQRRg8MgYIBxBFGDzSAQgyODk4ajBqMagCALACAA&sourceid=chrome&ie=UTF-8"
@@ -60,7 +61,7 @@ const SE = { "cards": [
             "name": "Cadence", "link": "www.cadence.com/en_US/home.html" }
   
         ],
-        "image": TwistImage,
+        "image": CadenceImage,
     },
   
 
