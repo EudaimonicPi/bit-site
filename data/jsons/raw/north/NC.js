@@ -85,11 +85,11 @@ const NC = { "cards": [
         }   ,
 
           { "title": "Pending Resubmission",
-        "description": "A month later back home in the states, I got an update. My grant was Pending Resubmission. I told my academic advisor and he said 'Congrats!'. I needed to just carefully revise and resubmit, but had a good chance.",
+        "description": "A month later back home in the States, I got an update. My grant was Pending Resubmission. I told my academic advisor and he said 'Congrats!'. I needed to just carefully revise and resubmit, but had a good chance.",
         "buttons": [
-            { "name": "Grant Proposal Video Tips",  // i dunno whether this can publsih bc has faculty comments.... 
-                "link": "www.youtube.com/watch?v=0YF48DfU6HY"
-            }
+            // { "name": "Grant Proposal Video Tips",  // i dunno whether this can publsih bc has faculty comments.... 
+            //     "link": "www.youtube.com/watch?v=0YF48DfU6HY"
+            // }
         ],
         "image": ResubImage,
 

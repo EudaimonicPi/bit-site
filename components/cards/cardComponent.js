@@ -7,7 +7,7 @@ function createButton(button) {
     //  <div>
                  <a href= {"//" + button["link"]} target = "_blank" >
                 <button className="cardButton" style={{margin: '2px'}}>
-                    {button["name"]}
+                    {button && button["name"]}
                 </button>
             </a>
 

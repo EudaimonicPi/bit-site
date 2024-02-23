@@ -51,7 +51,7 @@ const NW = { "cards": [
     },
 
         { "title": "More Background",
-        "description": "My background is Sierra Leonean American; I was born in Scotland, raised in Fresno/Clovis in CA's Central Valley, and my entire family hails from Sierra Leone, West Africa. Currently I'm in Palo Alto, CA for school at Stanford :) ",
+        "description": "My background is Sierra Leonean-American; I was born in Scotland, raised in Fresno/Clovis in CA's Central Valley, and my entire family hails from Sierra Leone, West Africa. Currently I'm in Palo Alto, CA for school at Stanford :) ",
         "buttons": [
             //TO DO: see if I can find the paper picture of my article in the daily :) 
             { "name": "Read More Here", 
