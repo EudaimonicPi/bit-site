@@ -3,33 +3,32 @@ import FamImage from '@/data/rawImages/CC/fam.jpeg'
 import MagPhotoImage from '@/data/rawImages/CC/magPhoto.jpeg'
 import CampusImage from '@/data/rawImages/CC/campus.jpeg'
 
+const vpueIG = "www.instagram.com/reel/CmHecSljI6q/?utm_source=ig_web_copy_link"
+
 const CC = { "cards": [
     { "title": "About Me",
-        "description": "Hi there! I'm Ecy (pronounced AC). I'm currently in my last year at Stanford. I'm super passionate about lots of things, especially this thing called Fractal Gridding. Explore the grid to find out more :)",
+        "description": "Hi! I'm Ecy (AC). I'm a Stanford student who wrote Bit by Bit, an educational Computer Science comic based around Stanford's Intro CS classes. It's being published by the Stanford University Press in June (woowoo!).",
         "buttons": [
-            // change to same link maybe? 
-            { "name": ":)", 
+
+             { "name": "Preorder :)", 
+                "link": "news.stanford.edu/report/2023/05/23/meet-ecy-king-23/"
+            },
+             { "name": "Book Vid", 
+                "link": "news.stanford.edu/report/2023/05/23/meet-ecy-king-23/"
+            },
+             { "name": "My Wesite", 
                 "link": "cogsplat.vercel.app/L1"
-            }
+            },
         ],
         "image": SelfImage,
     },
 
-    { "title": "Author Bio",
-        "description": "Here's my author bio if you're interested in perceiving me through that lens. Why are there 3? Click below to find out :D!",
-        "buttons": [
-            // change to same link maybe? 
-            { "name": "Author Bio", 
-                "link": "www.canva.com/design/DAF70_79t_A/XtkZtzbASJTqk2GiI7Bm4A/view?utm_content=DAF70_79t_A&utm_campaign=designshare&utm_medium=link&utm_source=editor"
-            }
-        ],
-        // "image": AuthorImage,
-    },
+
 
 
     //maybe vary it up on instagram link to video? 
     { "title": "About Me... from Stanford",
-        "description": "Here's more about me... from Stanford's perspective!",
+        "description": "I love called Fractal Gridding.Here's more about me... from Stanford's perspective!",
         "buttons": [
             // change to same link maybe? 
             { "name": "Read more from Stanford", 
