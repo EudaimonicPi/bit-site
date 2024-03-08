@@ -19,6 +19,7 @@ import WorkImage from '@/data/rawImages/NE/work.jpeg'
 import DraftImage from '@/data/rawImages/NE/draft.jpeg'
 
 //INCLUDE STANFORD PIC INFRONT OF HOOV TOW WITH KAREL EARRING
+const podcastLink = "open.spotify.com/episode/46oTQtKFXdNFhWAFuvIRcK?si=a48ef40f6ea14ec8"
 const NE = { "cards": [
 
         { "title": "The Start of Summer",
@@ -90,7 +91,9 @@ const NE = { "cards": [
     
     { "title": "Summer's End",
         "description": "At summer's end, I had a 232-page draft which I desperately needed to cut. But the physical book draft and other printed prototypes were proof of concept enough, and I had something to share and demo.",
-        "buttons": [
+        "buttons": [ {
+            "name": "Summer Work Podcast Feature" , "link": podcastLink
+        }
 
         ],
         "image": DraftImage,
