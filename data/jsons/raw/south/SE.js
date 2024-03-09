@@ -12,6 +12,7 @@ const searchLink  = "www.google.com/search?q=bit+by+bit+ecy+king&rlz=1C5CHFA_enU
 const YouTube = "www.youtube.com/@fgamusa9889"
 const jamcoders = "jamcoders.org.jm/"
 const asb = "stanfordalternativ.wixsite.com/website/concrete-jungle"
+const feedbackLink = "docs.google.com/forms/d/e/1FAIpQLSdvMP30Pp8xrB6r395OpgcPSKH4mYySCIuB_Kog5P-5WZtlyA/viewform?usp=sf_link"
 const SE = { "cards": [
         { "title": "Pre-order/Order Bit by Bit",
         "description": "Bit by Bit will be published by Stanford University Press on June 4th, 2024, and will be available domestically and internationally. Pre-order on Amazon or Google 'bit by bit ecy king' for mroe. Appreciate your support!",
@@ -83,8 +84,9 @@ const SE = { "cards": [
     },
 
               { "title": "Pursuit of Happiness",
-        "description": "Grateful to be here and sharing things like this labor of love. I hope to be able to continue things like this in some capacity.",
+        "description": "Grateful to be here and sharing things like this labor of love. I hope to be able to continue things like this in some capacity. Feedback and testimonials help with that greatly :)!",
         "buttons": [
+            { "name": "Feedback/Testimonial Form", "link": feedbackLink}
   
         ],
         "image": TwistImage,
