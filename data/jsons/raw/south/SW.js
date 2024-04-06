@@ -17,6 +17,18 @@ const projBook = "www.linkedin.com/pulse/meet-universal-project-book-fractal-gri
 const googleBooks = "www.google.com/search?gs_ssp=eJzj4tVP1zc0LEsxLisoM7QwYPQSTsosUUiqVABRqcmVCtmZeekAx_ULYg&q=bit+by+bit+ecy+king&rlz=1C5CHFA_enUS890US890&oq=bit+bt+biy&gs_lcrp=EgZjaHJvbWUqCQgDEC4YDRiABDIGCAAQRRg5Mg8IARAAGA0YgwEYsQMYgAQyCQgCEAAYDRiABDIJCAMQLhgNGIAEMgkIBBAAGA0YgAQyCQgFEAAYDRiABDIJCAYQABgNGIAEMgkIBxAuGA0YgAQyCQgIEC4YDRiABDIJCAkQABgNGIAE0gEINTUwMWowajSoAgCwAgA&sourceid=chrome&ie=UTF-8&si=AKbGX_p4pyeyr1FGV3SWZkER8f4EphN4nuBiUdh7r4yQpPOvWZUqZY0znm3ZAx4mvi2JNuusK1_GlIEd7JzaI7QNlwLCWVBvMzVMrGyBHCPXtKjji-lpWeM6A1-1fi0T1fsn_6BzWWDf_cwRSHD4XqZTbYfSsXK-WSjK5Fgtx4SKIf3EqZsXE0rnnteyuuCsPIeYvC02niSV&ictx=1&ved=2ahUKEwiGvu6ArMCEAxUPJzQIHaxaA40Q_coHegQINRAD"
 const vpueIG = "www.instagram.com/reel/CmHecSljI6q/?utm_source=ig_web_copy_link"
 const SW = { "cards": [
+     { "title": "Audience",
+        "description": "'In short, this book is more than just a cohesive study buddy for introductory Stanford courses. Rather it delivers a far-reaching guide of both pedagogical interest and practical use to students, educators, and researchers worldwide.'",
+        "buttons": [
+            // { "name": "Google Books", 
+            //     "link": googleBooks
+            // },
+            // { "name": "A Video", 
+            //     "link": vpueIG
+            // },
+        ],
+        "image": BooksImage, //img with ppl eventually
+    },
 
     { "title": "Comic Book",
         "description": "Bit by Bit is a 160-page CS comic, based on Stanford's CS106A & CS106B. It uses Fractal Gridding, visual thinking, storytelling, concept personification, and learning psychology to serve as a source of edutainment. It also flips.",
