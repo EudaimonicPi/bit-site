@@ -11,6 +11,8 @@ const preorderLink = "www.amazon.com/Bit-Graphic-Introduction-Computer-Science/d
 const supBook = "www.sup.org/books/title/?id=37945&bottom_ref=subject"
 const aceCALink = "engineering.stanford.edu/students-academics/equity-and-inclusion-initiatives/undergraduate-programs/additional-calculus/meet"
 const classNotes = "drive.google.com/drive/folders/130hjGtPxiuCSfPrLjun7JP-s0PiAVdAk"
+const guestLecLink = "drive.google.com/file/d/1Vi5komoemIy_WUYJynnEgLdwzlVVp8ZZ/view?usp=sharing" 
+
 const SC = { "cards": [
     { "title": "CS100ACE",
         "description": "Currently, I'm the Instructor for CS100ACE, an extra session lab supplement to CS106A. Lecturing and curriculum design are fun! Students have gotten copies as a good luck charm before their CS106A midterms.",
@@ -46,8 +48,12 @@ const SC = { "cards": [
     },
 
         { "title": "Upcoming Presentations:",
-        "description": "In February, I'll be giving a talk to high school students at a virtual summit about Bit by Bit and passion projects; more on that later! I'm also giving a 1-hour lecture in a class I'm talking on Fractal Gridding and Bit by Bit.",
+        "description": "In February, I gave a talk to high school students at a virtual summit about Bit by Bit and passion projects. I also gave a 1-hour lecture on Fractal Gridding and Bit by Bit in a class I was taking (CS247B).",
         "buttons": [
+             {"name": "CS247B Guest Lec",
+            "link": guestLecLink
+        },
+        
 
         ],
         "image": PrezImage,
